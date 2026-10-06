@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vincent Groenhuis</title>
+<meta name="description" content="Project pages by Vincent Groenhuis, Robotics and Mechatronics, University of Twente.">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --muted: #898781;
+  --border: rgba(11,11,11,0.10);
+  --border-hover: #c3c2b7;
+  --accent: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --text: #ffffff; --text-2: #c3c2b7;
+    --muted: #898781; --border: rgba(255,255,255,0.10); --border-hover: #4a4a46; --accent: #3987e5;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --text: #ffffff; --text-2: #c3c2b7;
+  --muted: #898781; --border: rgba(255,255,255,0.10); --border-hover: #4a4a46; --accent: #3987e5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--page); color: var(--text);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main { max-width: 880px; margin: 0 auto; padding: 64px 16px 64px; }
+h1 { font-size: 34px; margin: 0; letter-spacing: -0.015em; }
+.affil { color: var(--text-2); margin: 4px 0 0; font-size: 17px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 48px 0 14px; font-weight: 600; }
+.projects { display: grid; gap: 14px; }
+.card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 20px 22px; transition: border-color .15s;
+}
+.card:hover { border-color: var(--border-hover); }
+.card h3 { margin: 0 0 4px; font-size: 19px; }
+.card p { margin: 0; color: var(--text-2); }
+.links { margin-top: 10px; font-size: 14px; }
+.links a { color: var(--accent); margin-right: 16px; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
+footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vincent Groenhuis</h1>
+  <p class="affil">Robotics and Mechatronics, University of Twente</p>
+
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>MRI geometric distortion calibration</h3>
+      <p>3D geometric distortion of a 0.25 T Esaote G-scan Brio MRI scanner, measured with a calibration cube on a 20 mm grid and corrected with a 5th order polynomial. Interactive 3D viewer of the scan, segmentation and fit.</p>
+      <div class="links"><a href="/MRI_Scan_Things/">Open page →</a><a href="https://github.com/vgroenhuis/MRI_Scan_Things">Source</a></div>
+    </div>
+    <div class="card">
+      <h3>AprilTag Detector</h3>
+      <p>Browser-based live-camera detector for tag16h5 AprilTags with pose and distance estimation and false-positive filtering. Open it on a phone and tap <em>Start camera</em>.</p>
+      <div class="links"><a href="/AprilTagDetector/">Open page →</a><a href="https://github.com/vgroenhuis/AprilTagDetector">Source</a></div>
+    </div>
+  </div>
+
+  <footer>More code on <a href="https://github.com/vgroenhuis">github.com/vgroenhuis</a>.</footer>
+</main>
+</body>
+</html>
