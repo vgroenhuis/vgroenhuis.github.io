@@ -136,8 +136,8 @@ main{display:flex;flex-direction:column;gap:1.75rem}
 <div class="toolbar">
   <input type="search" id="search" placeholder="Search course, room or person" aria-label="Search activities">
   <div class="view-switch" role="group" aria-label="View">
-    <button type="button" id="viewList" aria-pressed="true">List</button>
-    <button type="button" id="viewCal" aria-pressed="false">Calendar</button>
+    <button type="button" id="viewCal" aria-pressed="true">Calendar</button>
+    <button type="button" id="viewList" aria-pressed="false">List</button>
   </div>
   <button class="today" id="jumpToday">Jump to today</button>
   <div class="legend">
@@ -272,8 +272,8 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
   }
   const MON_SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-  try { if (localStorage.getItem('te_view') === 'cal') state.view = 'cal'; } catch(e){}
-  if (!state.view) state.view = 'list';
+  state.view = 'cal';
+  try { if (localStorage.getItem('te_view') === 'list') state.view = 'list'; } catch(e){}
   const btnList = document.getElementById('viewList');
   const btnCal = document.getElementById('viewCal');
   function setView(v){
