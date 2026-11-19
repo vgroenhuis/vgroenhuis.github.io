@@ -98,6 +98,9 @@ main{display:flex;flex-direction:column;gap:1.75rem}
 .chip.compact{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;padding:2px 4px;background:var(--surface)}
 .chip.compact.mine{background:var(--mine-bg)}
 .chip.compact .ct{margin-right:3px}
+.chip.compact .cr{color:var(--text-2)}
+.filter-card .abbr{font-size:11px;color:var(--text-3);margin-left:2px}
+.acell .slab-sub{font-size:11px;line-height:1.15;text-align:center;color:#fff;margin-top:-1px}
 .act{scroll-margin-top:calc(var(--tb,61px) + 40px);transition:outline-color .3s}
 .act.flash{outline:2px solid var(--accent);outline-offset:2px}
 .tip{position:fixed;z-index:20;max-width:300px;background:var(--surface);color:var(--text);border:0.5px solid var(--border-strong);border-radius:10px;padding:10px 12px;font-size:12px;line-height:1.45;box-shadow:0 6px 24px rgba(0,0,0,.14);pointer-events:none}
@@ -184,8 +187,8 @@ td.today{box-shadow:inset 0 0 0 2.5px var(--accent)}
 <div class="toolbar">
   <input type="search" id="search" placeholder="Search course, room or person" aria-label="Search activities">
   <div class="view-switch" role="group" aria-label="View">
-    <button type="button" id="viewCal" aria-pressed="true">Calendar</button>
-    <button type="button" id="viewAcad" aria-pressed="false">Academic</button>
+    <button type="button" id="viewAcad" aria-pressed="true">Year</button>
+    <button type="button" id="viewCal" aria-pressed="false">Month</button>
     <button type="button" id="viewList" aria-pressed="false">List</button>
   </div>
   <button class="today" id="jumpToday">Jump to today</button>
@@ -206,6 +209,13 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
 </script>
 <script>
 (function(){
+  const ABBR = {
+    '202600133':'MCR', '202600288':'ST Core', '202000968':'IPS', '202600134':'Int. Project', '202400432':'Hackathon',
+    '202600130':'FSHS', '202600132':'PACE', '202600131':'Wireless', '202600129':'M8C CPS',
+    '202400430':'M5A', '202400434':'PD M5A', '202600262':'PD M5B', '202600289':'Sensors',
+    '202400602':'LWT', '202500544':'Math 3', '202000970':'PD M3', '202300037':'T&S'
+  };
+  const abbr = a => ABBR[a.code] || a.course;
   const acts = DATA.activities;
   acts.forEach((a, i) => { a.idx = i; });
   const modules = DATA.modules;
@@ -222,6 +232,10 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     if (v) state.checked.add(c.code);
   }));
 
+  function abbrHint(c){
+    const ab = ABBR[c.code];
+    return ab && ab !== c.course ? ' <span class="abbr">' + ab.replace('&','&amp;') + '</span>' : '';
+  }
   const filtersEl = document.getElementById('filters');
   modules.forEach(m => {
     const card = document.createElement('div');
@@ -254,7 +268,7 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     mine.forEach(c => {
       const lab = document.createElement('label');
       lab.className = 'mine-row';
-      lab.innerHTML = '<input type="checkbox" checked disabled> ' + c.course + ' <span class="mod-label">(you)</span>';
+      lab.innerHTML = '<input type="checkbox" checked disabled> ' + c.course + abbrHint(c) + ' <span class="mod-label">(you)</span>';
       card.appendChild(lab);
     });
     others.forEach(c => {
@@ -270,6 +284,7 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
       checkboxes.push(cb);
       lab.appendChild(cb);
       lab.appendChild(document.createTextNode(' ' + c.course));
+      if (abbrHint(c)) lab.insertAdjacentHTML('beforeend', abbrHint(c));
       card.appendChild(lab);
     });
     filtersEl.appendChild(card);
@@ -324,8 +339,8 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
   }
   const MON_SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-  state.view = 'cal';
-  try { const v = localStorage.getItem('te_view'); if (v === 'list' || v === 'acad') state.view = v; } catch(e){}
+  state.view = 'acad';
+  try { const v = localStorage.getItem('te_view'); if (v === 'list' || v === 'cal') state.view = v; } catch(e){}
   const viewBtns = { cal: document.getElementById('viewCal'), acad: document.getElementById('viewAcad'), list: document.getElementById('viewList') };
   function setView(v){
     state.view = v;
@@ -374,12 +389,22 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     el.classList.add('flash');
     setTimeout(() => el.classList.remove('flash'), 2500);
   }
+  function shortRoom(a){
+    if (!a.rooms.length) return '';
+    const r = a.rooms[0].room;
+    let t = r;
+    if (/no room required/i.test(r)) t = 'no room';
+    else if (/request/i.test(r)) t = 'room tbd';
+    else t = r.replace(/\s*\(\d+p\)$/, '');
+    return a.rooms.length > 1 ? t + ' +' + (a.rooms.length - 1) : t;
+  }
   function makeChip(a, compact){
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'chip' + (compact ? ' compact' : '') + (a.mine ? ' mine' : '');
     if (compact){
-      b.innerHTML = '<span class="ct">' + a.start + '</span><span class="cn">' + esc(a.course) + '</span>';
+      b.innerHTML = '<span class="ct">' + a.start + '</span><span class="cn">' + esc(abbr(a)) + '</span>' +
+        (shortRoom(a) ? '<br><span class="cr">' + esc(shortRoom(a)) + '</span>' : '');
     } else {
       const rooms = a.rooms.map(r => r.room).join(', ');
       b.innerHTML = '<span class="ct">' + a.start + '–' + a.end + '</span>' +
@@ -470,8 +495,8 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
 
   const PH = 'Public Holiday';
   const SPECIAL = {
-    '2026-10-23': ['open','BSC OD','Bachelor open day: no lectures'],
-    '2026-10-24': ['open','BSC OD','Bachelor open day'],
+    '2026-10-23': ['open','BSc OD','Bachelor open day: no lectures'],
+    '2026-10-24': ['open','BSc OD','Bachelor open day'],
     '2026-11-19': ['open','','Schedules of 2nd and 3rd year students cleared 15:30–18:00 for MSc information sessions'],
     '2026-12-25': ['hol',PH,'Christmas Day'],
     '2026-12-28': ['hol','Collective Closure','Collective closure'],
@@ -481,9 +506,9 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     '2027-01-01': ['hol',PH,"New Year's Day"],
     '2027-02-01': ['special','Kick In','Winter Kick-In: education free for programmes where exchange and Master students join'],
     '2027-02-02': ['special','Kick In','Winter Kick-In; Tuesday 15:00–17:00 education free for all programmes'],
-    '2027-03-18': ['open','MSC','Master open day: no lectures'],
-    '2027-03-19': ['open','BSC OD','Bachelor open day: no lectures'],
-    '2027-03-20': ['open','BSC OD','Bachelor open day'],
+    '2027-03-18': ['open','MSc','Master open day: no lectures'],
+    '2027-03-19': ['open','BSc OD','Bachelor open day: no lectures'],
+    '2027-03-20': ['open','BSc OD','Bachelor open day'],
     '2027-03-26': ['hol',PH,'Good Friday'],
     '2027-03-29': ['hol',PH,'Easter Monday'],
     '2027-04-27': ['hol',PH,"King's Day"],
@@ -497,13 +522,13 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     { title:'Quartile 1', start:'2026-08-31', qw: range('1',1,10),
       months:['Sep','Sep','Sep','Sep','Sep/ Oct','Oct','Oct','Oct','Oct','Nov'], kinds:{8:'exam',9:'exam'} },
     { title:'Quartile 2', start:'2026-11-09', qw: [...range('2',1,6),'','',...range('2',7,10)],
-      months:['Nov','Nov','Nov','Nov/ Dec','Dec','Dec','Dec','Dec/ Jan','Jan','Jan','Jan','Jan'], kinds:{6:'hol',7:'hol',10:'exam',11:'exam'} },
+      months:['Nov','Nov','Nov','Nov/ Dec','Dec','Dec','Dec','Dec/ Jan','Jan','Jan','Jan','Jan'], kinds:{6:'hol',7:'hol',10:'exam',11:'exam'}, breaks:{6:'Christmas break'} },
     { title:'Quartile 3', start:'2027-02-01', qw: [...range('3',1,3),'',...range('3',4,10)],
-      months:['Feb','Feb','Feb','Feb','Mar','Mar','Mar','Mar','Mar/ Apr','Apr','Apr'], kinds:{3:'hol',9:'exam',10:'exam'} },
+      months:['Feb','Feb','Feb','Feb','Mar','Mar','Mar','Mar','Mar/ Apr','Apr','Apr'], kinds:{3:'hol',9:'exam',10:'exam'}, breaks:{3:'Spring break'} },
     { title:'Quartile 4', start:'2027-04-19', qw: range('4',1,11),
       months:['Apr','Apr/ May','May','May','May','May','May/ Jun','Jun','Jun','Jun','Jun/ July'], kinds:{9:'exam',10:'exam'} },
     { title:'Summer', start:'2027-07-05', qw: ['','','','','','','',''],
-      months:['Jul','Jul','Jul','Jul/ Aug','Aug','Aug','Aug','Aug'], kinds:{0:'rs',1:'rs',2:'rm',3:'hol',4:'hol',5:'hol',6:'hol',7:'hol'} }
+      months:['Jul','Jul','Jul','Jul/ Aug','Aug','Aug','Aug','Aug'], kinds:{0:'rs',1:'rs',2:'rm',3:'hol',4:'hol',5:'hol',6:'hol',7:'hol'}, breaks:{3:'Summer holiday',4:'Summer holiday',5:'Summer holiday',6:'Summer holiday',7:'Summer holiday'} }
   ];
   const KIND_INFO = {
     edu:'Module education including tests / lectures',
@@ -564,7 +589,7 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
           const td = document.createElement('td');
           td.id = 'ac-' + iso;
           td.className = (kind ? 'k-' + kind : '') + (weekend ? ' we' : '') + (iso === todayISO ? ' today' : '');
-          const info = sp ? sp[2] : (kind ? KIND_INFO[kind] : '');
+          const info = sp ? (sp[1] === PH ? 'Public holiday, ' + sp[2] : sp[2]) : (!weekend && blk.breaks && blk.breaks[w]) ? blk.breaks[w] : (kind ? KIND_INFO[kind] : '');
           td.title = longDate(iso) + (info ? ': ' + info : '');
           const cell = document.createElement('div');
           cell.className = 'acell';
@@ -572,6 +597,17 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
             const lab = document.createElement('span');
             lab.className = 'slab';
             lab.textContent = sp[1];
+            cell.appendChild(lab);
+            if (sp[1] === PH){
+              const sub = document.createElement('span');
+              sub.className = 'slab-sub';
+              sub.textContent = sp[2];
+              cell.appendChild(sub);
+            }
+          } else if (!weekend && d === 0 && blk.breaks && blk.breaks[w]){
+            const lab = document.createElement('span');
+            lab.className = 'slab';
+            lab.textContent = blk.breaks[w];
             cell.appendChild(lab);
           }
           (byDate[iso] || []).forEach(a => cell.appendChild(makeChip(a, true)));
