@@ -394,7 +394,7 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     const r = a.rooms[0].room;
     let t = r;
     if (/no room required/i.test(r)) t = 'no room';
-    else if (/request/i.test(r)) t = 'room tbd';
+    else if (/request/i.test(r)) t = 'room TBD';
     else t = r.replace(/\s*\(\d+p\)$/, '');
     return a.rooms.length > 1 ? t + ' +' + (a.rooms.length - 1) : t;
   }
