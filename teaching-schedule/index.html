@@ -63,11 +63,41 @@ header.page p{margin:0;color:var(--text-2);font-size:14px}
 .filter-card label.mine-row input{visibility:hidden}
 main{display:flex;flex-direction:column;gap:1.75rem}
 .month{display:flex;flex-direction:column;gap:.6rem}
-.month h2{font-size:15px;color:var(--text-2);font-weight:500;letter-spacing:.02em;position:sticky;top:58px;
+.month h2{font-size:15px;color:var(--text-2);font-weight:500;letter-spacing:.02em;position:sticky;top:var(--tb,61px);
   background:var(--bg);padding-block:.25rem;z-index:4}
-.day{display:flex;flex-direction:column;gap:.4rem;scroll-margin-top:96px}
+.day{display:flex;flex-direction:column;gap:.4rem;scroll-margin-top:calc(var(--tb,61px) + 36px)}
 .week-sep{display:flex;align-items:center;gap:10px;color:var(--text-3);font-size:11px;letter-spacing:.04em;margin:.3rem 0 -.1rem}
 .week-sep::before,.week-sep::after{content:"";flex:1;height:0.5px;background:var(--border-strong)}
+.view-switch{display:inline-flex;height:36px;border:0.5px solid var(--border-strong);border-radius:8px;overflow:hidden}
+.view-switch button{border:none;background:var(--surface);color:var(--text-2);font-size:13px;padding:0 .75rem;cursor:pointer;font-family:inherit}
+.view-switch button+button{border-left:0.5px solid var(--border-strong)}
+.view-switch button[aria-pressed="true"]{background:var(--accent-bg);color:var(--accent-text);font-weight:500}
+.view-switch button:focus-visible,.toolbar button.today:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.cal{border:0.5px solid var(--border);border-radius:12px;background:var(--surface);overflow:clip}
+.cal-row{display:grid;grid-template-columns:64px repeat(var(--cols),minmax(0,1fr))}
+.cal-head{position:sticky;top:var(--tb,61px);z-index:3;background:var(--surface-2);border-bottom:0.5px solid var(--border-strong);font-size:12px;color:var(--text-2);font-weight:500}
+.cal-head>div{padding:6px 8px}
+.cal-month{padding:10px 10px 4px;font-family:var(--font-display);font-size:14px;color:var(--text-2);font-weight:500;background:var(--bg);border-top:0.5px solid var(--border)}
+.cal-week{border-top:0.5px solid var(--border);scroll-margin-top:calc(var(--tb,61px) + 34px)}
+.cal-wk{padding:6px 8px;font-size:11px;color:var(--text-3);border-right:0.5px solid var(--border);display:flex;flex-direction:column;gap:1px}
+.cal-wk b{color:var(--text-2);font-weight:500;font-size:12px}
+.cal-day{padding:4px;min-height:40px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.cal-day+.cal-day{border-left:0.5px solid var(--border)}
+.cal-day.today{background:var(--accent-bg)}
+.cal-day .dnum{font-size:11px;color:var(--text-3);padding:0 2px;font-variant-numeric:tabular-nums}
+.cal-day.today .dnum{color:var(--accent-text);font-weight:500}
+.chip{font-size:11px;line-height:1.3;padding:3px 5px;border-radius:5px;background:var(--surface-2);border:0.5px solid var(--border);min-width:0;overflow-wrap:break-word;hyphens:auto;display:flex;flex-direction:column}
+.chip.mine{background:var(--mine-bg);border-color:var(--mine-border)}
+.chip .ct{color:var(--text-2);font-variant-numeric:tabular-nums}
+.chip .cn{color:var(--text);font-weight:500}
+.chip .cm{color:var(--text-2)}
+.chip .cm a{color:var(--accent-text);text-decoration:none}
+.chip .cm a:hover{text-decoration:underline}
+@media (max-width:560px){
+  .cal-scroll{overflow-x:auto}
+  .cal{min-width:520px}
+  .cal-head{position:static}
+}
 .day-label{font-size:12px;color:var(--text-3);display:flex;gap:.5rem;align-items:baseline}
 .day-label .dow{color:var(--text-2);font-weight:500}
 .day-label.today .dow{color:var(--accent-text)}
@@ -96,7 +126,7 @@ main{display:flex;flex-direction:column;gap:1.75rem}
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap" lang="en">
 <h2 class="sr-only">Personal teaching schedule across three modules, with filters to show or hide other courses</h2>
 <header class="page">
   <h1>My teaching schedule</h1>
@@ -105,6 +135,10 @@ main{display:flex;flex-direction:column;gap:1.75rem}
 
 <div class="toolbar">
   <input type="search" id="search" placeholder="Search course, room or person" aria-label="Search activities">
+  <div class="view-switch" role="group" aria-label="View">
+    <button type="button" id="viewList" aria-pressed="true">List</button>
+    <button type="button" id="viewCal" aria-pressed="false">Calendar</button>
+  </div>
   <button class="today" id="jumpToday">Jump to today</button>
   <div class="legend">
     <span><span class="swatch mine"></span>You're teaching</span>
@@ -221,12 +255,112 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     return hay.includes(q);
   }
 
+  function esc(s){
+    return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  }
+  function roomsHtml(a){
+    return a.rooms.map(r => r.link ? '<a href="'+esc(r.link)+'" target="_blank" rel="noopener">'+esc(r.room)+'</a>' : esc(r.room)).join(', ');
+  }
+  function addDays(iso, n){
+    const d = new Date(iso+"T00:00:00Z");
+    d.setUTCDate(d.getUTCDate() + n);
+    return d.toISOString().slice(0,10);
+  }
+  function mondayOf(iso){
+    const d = new Date(iso+"T00:00:00Z");
+    return addDays(iso, -((d.getUTCDay() + 6) % 7));
+  }
+  const MON_SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+  try { if (localStorage.getItem('te_view') === 'cal') state.view = 'cal'; } catch(e){}
+  if (!state.view) state.view = 'list';
+  const btnList = document.getElementById('viewList');
+  const btnCal = document.getElementById('viewCal');
+  function setView(v){
+    state.view = v;
+    btnList.setAttribute('aria-pressed', v === 'list');
+    btnCal.setAttribute('aria-pressed', v === 'cal');
+    try { localStorage.setItem('te_view', v); } catch(e){}
+    render();
+  }
+  const toolbarEl = document.querySelector('.toolbar');
+  function syncToolbar(){ document.documentElement.style.setProperty('--tb', toolbarEl.offsetHeight + 'px'); }
+  syncToolbar();
+  try { new ResizeObserver(syncToolbar).observe(toolbarEl); } catch(e){ window.addEventListener('resize', syncToolbar); }
+  btnList.addEventListener('click', () => setView('list'));
+  btnCal.addEventListener('click', () => setView('cal'));
+
   function render(){
     const main = document.getElementById('main');
     main.innerHTML = '';
+    btnList.setAttribute('aria-pressed', state.view === 'list');
+    btnCal.setAttribute('aria-pressed', state.view === 'cal');
     const visible = acts.filter(a => (a.mine || state.checked.has(a.code)) && matchesQuery(a, state.query));
     document.getElementById('emptyMsg').hidden = visible.length > 0;
+    if (!visible.length) return;
+    if (state.view === 'cal') renderCalendar(main, visible); else renderList(main, visible);
+  }
 
+  function renderCalendar(main, visible){
+    const byDate = {};
+    visible.forEach(a => { (byDate[a.date] = byDate[a.date] || []).push(a); });
+    const hasWeekend = visible.some(a => { const g = new Date(a.date+"T00:00:00Z").getUTCDay(); return g === 0 || g === 6; });
+    const cols = hasWeekend ? 7 : 5;
+    const dayNames = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].slice(0, cols);
+
+    const scroll = document.createElement('div');
+    scroll.className = 'cal-scroll';
+    const cal = document.createElement('div');
+    cal.className = 'cal';
+    cal.style.setProperty('--cols', cols);
+    const head = document.createElement('div');
+    head.className = 'cal-row cal-head';
+    head.innerHTML = '<div>Week</div>' + dayNames.map(n => '<div>' + n + '</div>').join('');
+    cal.appendChild(head);
+
+    const first = mondayOf(visible[0].date);
+    const last = mondayOf(visible[visible.length - 1].date);
+    let prevMonth = null;
+    for (let wkStart = first; wkStart <= last; wkStart = addDays(wkStart, 7)){
+      const mKey = addDays(wkStart, 3).slice(0,7);
+      if (mKey !== prevMonth){
+        prevMonth = mKey;
+        const mh = document.createElement('div');
+        mh.className = 'cal-month';
+        mh.textContent = fmtMonth(mKey + '-01');
+        cal.appendChild(mh);
+      }
+      const row = document.createElement('div');
+      row.className = 'cal-row cal-week';
+      row.id = 'w-' + wkStart;
+      const s = new Date(wkStart+"T00:00:00Z");
+      row.innerHTML = '<div class="cal-wk"><b>W' + isoWeek(wkStart) + '</b><span>' + s.getUTCDate() + ' ' + MON_SHORT[s.getUTCMonth()] + '</span></div>';
+      for (let i = 0; i < cols; i++){
+        const iso = addDays(wkStart, i);
+        const d = new Date(iso+"T00:00:00Z");
+        const cell = document.createElement('div');
+        cell.className = 'cal-day' + (iso === todayISO ? ' today' : '');
+        const dn = d.getUTCDate();
+        cell.innerHTML = '<span class="dnum">' + dn + (dn === 1 ? ' ' + MON_SHORT[d.getUTCMonth()] : '') + '</span>';
+        (byDate[iso] || []).forEach(a => {
+          const chip = document.createElement('div');
+          chip.className = 'chip' + (a.mine ? ' mine' : '');
+          chip.title = [a.course, a.component, a.type, a.docent.replace(/\s+/g,' '), a.note].filter(Boolean).join('\n');
+          const rh = roomsHtml(a);
+          chip.innerHTML = '<span class="ct">' + a.start + '–' + a.end + '</span>' +
+            '<span class="cn">' + esc(a.course) + '</span>' +
+            '<span class="cm">' + esc(a.type) + (rh ? ' · ' + rh : '') + '</span>';
+          cell.appendChild(chip);
+        });
+        row.appendChild(cell);
+      }
+      cal.appendChild(row);
+    }
+    scroll.appendChild(cal);
+    main.appendChild(scroll);
+  }
+
+  function renderList(main, visible){
     let curMonth = null, curDay = null, curWeek = null, monthEl = null, dayEl = null;
     visible.forEach(a => {
       const mKey = a.date.slice(0,7);
@@ -293,7 +427,12 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
   }
 
   document.getElementById('jumpToday').addEventListener('click', () => {
-    const el = document.getElementById('d-' + todayISO);
+    let el;
+    if (state.view === 'cal'){
+      el = document.getElementById('w-' + mondayOf(todayISO));
+    } else {
+      el = Array.from(document.querySelectorAll('.day')).find(d => d.id.slice(2) >= todayISO);
+    }
     if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
   });
 
