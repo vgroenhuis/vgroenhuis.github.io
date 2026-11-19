@@ -77,7 +77,7 @@ main{display:flex;flex-direction:column;gap:1.75rem}
 .cal-row{display:grid;grid-template-columns:64px repeat(var(--cols),minmax(0,1fr))}
 .cal-head{position:sticky;top:var(--tb,61px);z-index:3;background:var(--surface-2);border-bottom:0.5px solid var(--border-strong);font-size:12px;color:var(--text-2);font-weight:500}
 .cal-head>div{padding:6px 8px}
-.cal-month{padding:10px 10px 4px;font-family:var(--font-display);font-size:14px;color:var(--text-2);font-weight:500;background:var(--bg);border-top:0.5px solid var(--border)}
+.cal-month{padding:12px 10px 6px;font-family:var(--font-display);font-size:14px;color:var(--text-2);font-weight:500;background:var(--bg);border-top:0.5px solid var(--border)}
 .cal-week{border-top:0.5px solid var(--border);scroll-margin-top:calc(var(--tb,61px) + 34px)}
 .cal-wk{padding:6px 8px;font-size:11px;color:var(--text-3);border-right:0.5px solid var(--border);display:flex;flex-direction:column;gap:1px}
 .cal-wk b{color:var(--text-2);font-weight:500;font-size:12px}
@@ -313,10 +313,7 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     const cal = document.createElement('div');
     cal.className = 'cal';
     cal.style.setProperty('--cols', cols);
-    const head = document.createElement('div');
-    head.className = 'cal-row cal-head';
-    head.innerHTML = '<div>Week</div>' + dayNames.map(n => '<div>' + n + '</div>').join('');
-    cal.appendChild(head);
+    const headHtml = '<div>Week</div>' + dayNames.map(n => '<div>' + n + '</div>').join('');
 
     const first = mondayOf(visible[0].date);
     const last = mondayOf(visible[visible.length - 1].date);
@@ -329,6 +326,10 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
         mh.className = 'cal-month';
         mh.textContent = fmtMonth(mKey + '-01');
         cal.appendChild(mh);
+        const head = document.createElement('div');
+        head.className = 'cal-row cal-head';
+        head.innerHTML = headHtml;
+        cal.appendChild(head);
       }
       const row = document.createElement('div');
       row.className = 'cal-row cal-week';
