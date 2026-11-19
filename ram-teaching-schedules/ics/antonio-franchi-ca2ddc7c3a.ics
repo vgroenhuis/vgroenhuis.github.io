@@ -1,0 +1,856 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Antonio Franchi
+X-WR-CALDESC:Teaching activities of Antonio Franchi\, University of Twente\
+ , from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a3012724a86f091c11c3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T084500
+DTEND;TZID=Europe/Amsterdam:20261109T104500
+SUMMARY:Control Eng – Toets Chromebook
+LOCATION:Therm 1
+DESCRIPTION:Control Engineering (202001140)\nToets Chromebook\nTeachers: A.
+  Franchi\, G.A. Folkertsma\, W. Roozing\nMap Therm 1: https://use.mazemap.
+ com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=TM103\nFrom TimeEdi
+ t\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedul
+ es/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM103
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c67b2cf745f657a54b38@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T084500
+DTEND;TZID=Europe/Amsterdam:20261109T104500
+SUMMARY:Control Eng – Toets Chromebook
+LOCATION:Therm 2
+DESCRIPTION:Control Engineering (202001140)\nToets Chromebook\nTeachers: A.
+  Franchi\, G.A. Folkertsma\, W. Roozing\nMap Therm 2: https://use.mazemap.
+ com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=TM101\nFrom TimeEdi
+ t\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedul
+ es/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b44d66ddc29984d6fa13@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T084500
+DTEND;TZID=Europe/Amsterdam:20261109T104500
+SUMMARY:ESD – Toets Chromebook
+LOCATION:Therm 1
+DESCRIPTION:Engineering System Dynamics (202001141)\nToets Chromebook\nTeac
+ hers: A. Franchi\, G.A. Folkertsma\, W. Roozing\nMap Therm 1: https://use.
+ mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=TM103\nFrom
+  TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching
+ -schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM103
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7083d0c1878ab437fb1f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T084500
+DTEND;TZID=Europe/Amsterdam:20261109T104500
+SUMMARY:ESD – Toets Chromebook
+LOCATION:Therm 2
+DESCRIPTION:Engineering System Dynamics (202001141)\nToets Chromebook\nTeac
+ hers: A. Franchi\, G.A. Folkertsma\, W. Roozing\nMap Therm 2: https://use.
+ mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=TM101\nFrom
+  TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching
+ -schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5da1a77a3616233afc7d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T114500
+DTEND;TZID=Europe/Amsterdam:20261109T123000
+SUMMARY:Control Eng – Hoorcollege
+LOCATION:SP 1
+DESCRIPTION:Control Engineering (202001140)\nHoorcollege\nTeachers: A. Fran
+ chi\nMap SP 1: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=SPC101\nNote: Kick-off\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5632cc68fe2e374f2c25@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T114500
+DTEND;TZID=Europe/Amsterdam:20261109T123000
+SUMMARY:ESD – Hoorcollege
+LOCATION:SP 1
+DESCRIPTION:Engineering System Dynamics (202001141)\nHoorcollege\nTeachers:
+  A. Franchi\nMap SP 1: https://use.mazemap.com/#v=1&campusid=171&sharepoit
+ ype=identifier&sharepoi=SPC101\nNote: Kick-off\nFrom TimeEdit\, updated 19
+  Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:28b0d40f9f44021f8bd5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T134500
+DTEND;TZID=Europe/Amsterdam:20261109T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:OH 218
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\, G.A. Folkertsma\, W. Roozing\nMap OH 218: https://use.mazemap.com/#v
+ =1&campusid=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom TimeEdit\, 
+ updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:189acc10840780c0d951@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T134500
+DTEND;TZID=Europe/Amsterdam:20261109T173000
+SUMMARY:ESD – Colstructie
+LOCATION:OH 218
+DESCRIPTION:Engineering System Dynamics (202001141)\nColstructie\nTeachers:
+  A. Franchi\, G.A. Folkertsma\, W. Roozing\nMap OH 218: https://use.mazema
+ p.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom Tim
+ eEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-sch
+ edules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ad8d5aa6ba005422329e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261110T084500
+DTEND;TZID=Europe/Amsterdam:20261110T123000
+SUMMARY:Control Eng – Colstructie
+LOCATION:OH 218
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\, G.A. Folkertsma\, W. Roozing\nMap OH 218: https://use.mazemap.com/#v
+ =1&campusid=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom TimeEdit\, 
+ updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0a6f64b5556eb9aae4de@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261110T084500
+DTEND;TZID=Europe/Amsterdam:20261110T123000
+SUMMARY:ESD – Colstructie
+LOCATION:OH 218
+DESCRIPTION:Engineering System Dynamics (202001141)\nColstructie\nTeachers:
+  A. Franchi\, G.A. Folkertsma\, W. Roozing\nMap OH 218: https://use.mazema
+ p.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom Tim
+ eEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-sch
+ edules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:acff80c763797a066799@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261110T134500
+DTEND;TZID=Europe/Amsterdam:20261110T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:OH 218
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\, G.A. Folkertsma\, W. Roozing\nMap OH 218: https://use.mazemap.com/#v
+ =1&campusid=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom TimeEdit\, 
+ updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6240a9c632c2b347f6d5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261110T134500
+DTEND;TZID=Europe/Amsterdam:20261110T173000
+SUMMARY:ESD – Colstructie
+LOCATION:OH 218
+DESCRIPTION:Engineering System Dynamics (202001141)\nColstructie\nTeachers:
+  A. Franchi\, G.A. Folkertsma\, W. Roozing\nMap OH 218: https://use.mazema
+ p.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom Tim
+ eEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-sch
+ edules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c97048ed737f4befe5dc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261111T134500
+DTEND;TZID=Europe/Amsterdam:20261111T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:LA 2101 + 2105
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap LA 2101 + 2105: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=LA2101\nFrom TimeEdit\, updated 19 Nov 2026. htt
+ ps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=LA2101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0e6ef0a7b27c48c85e14@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261112T134500
+DTEND;TZID=Europe/Amsterdam:20261112T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e002d56aa169480f1881@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261113T134500
+DTEND;TZID=Europe/Amsterdam:20261113T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 900
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 900: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCT900\nFrom TimeEdit\, updated 19 Nov 2026. https://vgr
+ oenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT900
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fafff5056aedda2e102a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261116T134500
+DTEND;TZID=Europe/Amsterdam:20261116T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 900
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 900: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCT900\nFrom TimeEdit\, updated 19 Nov 2026. https://vgr
+ oenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT900
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5bcc7c79a05db4c59dc0@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261117T134500
+DTEND;TZID=Europe/Amsterdam:20261117T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:LA 2101 + 2105
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap LA 2101 + 2105: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=LA2101\nFrom TimeEdit\, updated 19 Nov 2026. htt
+ ps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=LA2101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b25d4cd53958437b6c29@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261119T134500
+DTEND;TZID=Europe/Amsterdam:20261119T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:05f18eefcf2dcbb38b92@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261120T134500
+DTEND;TZID=Europe/Amsterdam:20261120T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 900
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 900: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCT900\nFrom TimeEdit\, updated 19 Nov 2026. https://vgr
+ oenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT900
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6a5ba8f9a694492cb844@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261126T084500
+DTEND;TZID=Europe/Amsterdam:20261126T103000
+SUMMARY:Control Eng – Vragenuur
+LOCATION:**Online
+DESCRIPTION:Control Engineering (202001140)\nVragenuur\nTeachers: A. Franch
+ i\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-t
+ eaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a7af577f20562517e2fd@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261127T084500
+DTEND;TZID=Europe/Amsterdam:20261127T104500
+SUMMARY:Control Eng – Toets Chromebook
+LOCATION:Therm 1
+DESCRIPTION:Control Engineering (202001140)\nToets Chromebook\nTeachers: A.
+  Franchi\nMap Therm 1: https://use.mazemap.com/#v=1&campusid=171&sharepoit
+ ype=identifier&sharepoi=TM103\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM103
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a2471bf7e0a5b0a08611@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261127T084500
+DTEND;TZID=Europe/Amsterdam:20261127T104500
+SUMMARY:Control Eng – Toets Chromebook
+LOCATION:Therm 2
+DESCRIPTION:Control Engineering (202001140)\nToets Chromebook\nTeachers: A.
+  Franchi\nMap Therm 2: https://use.mazemap.com/#v=1&campusid=171&sharepoit
+ ype=identifier&sharepoi=TM101\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c178dd1b2866ccf61c54@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261127T134500
+DTEND;TZID=Europe/Amsterdam:20261127T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:955bc7f1d591ab0a0829@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261130T134500
+DTEND;TZID=Europe/Amsterdam:20261130T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:LA 2101 + 2105
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap LA 2101 + 2105: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=LA2101\nFrom TimeEdit\, updated 19 Nov 2026. htt
+ ps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=LA2101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d8024e71dd1aaaa4315a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261201T134500
+DTEND;TZID=Europe/Amsterdam:20261201T153000
+SUMMARY:Project S&C – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Project S&C (202001142)\nHoorcollege\nTeachers: A. Franchi\nMap
+  HR N109: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifie
+ r&sharepoi=HCN109\nNote: Introduction\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7c87507cfee320a4f714@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261201T154500
+DTEND;TZID=Europe/Amsterdam:20261201T163000
+SUMMARY:Control Eng – Toets Inzage
+LOCATION:CR 2G
+DESCRIPTION:Control Engineering (202001140)\nToets Inzage\nTeachers: A. Fra
+ nchi\nMap CR 2G: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=CRC2173\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2173
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:baf598771fb3a6bd63bc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261202T084500
+DTEND;TZID=Europe/Amsterdam:20261202T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a5f2de8ffbf812b84f3b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261203T134500
+DTEND;TZID=Europe/Amsterdam:20261203T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:96f16c9f61dd1f0d30e4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261204T084500
+DTEND;TZID=Europe/Amsterdam:20261204T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:59fa81c0229d142846a7@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261207T134500
+DTEND;TZID=Europe/Amsterdam:20261207T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:119f05627ead041d52ed@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261208T134500
+DTEND;TZID=Europe/Amsterdam:20261208T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:69e001051148ef8f5f6c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261209T084500
+DTEND;TZID=Europe/Amsterdam:20261209T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dfd26c2ecca2e466e121@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261210T134500
+DTEND;TZID=Europe/Amsterdam:20261210T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:70a93d9940cff9772215@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261211T134500
+DTEND;TZID=Europe/Amsterdam:20261211T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:LA 2101 + 2105
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap LA 2101 + 2105: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=LA2101\nFrom TimeEdit\, updated 19 Nov 2026. htt
+ ps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=LA2101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e799205b08c7c7b66ff1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261214T084500
+DTEND;TZID=Europe/Amsterdam:20261214T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd4d8fd2682d3febbc7@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261215T134500
+DTEND;TZID=Europe/Amsterdam:20261215T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fc3f3a7c33f942a2d412@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261216T134500
+DTEND;TZID=Europe/Amsterdam:20261216T173000
+SUMMARY:Control Eng – Colstructie
+LOCATION:HT 1100
+DESCRIPTION:Control Engineering (202001140)\nColstructie\nTeachers: A. Fran
+ chi\nMap HT 1100: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=HCT1100\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT1100
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c80fac53f705d467f019@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261217T084500
+DTEND;TZID=Europe/Amsterdam:20261217T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:82ba624be7f7f2a065af@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270107T084500
+DTEND;TZID=Europe/Amsterdam:20270107T103000
+SUMMARY:Control Eng – Vragenuur
+LOCATION:**Online
+DESCRIPTION:Control Engineering (202001140)\nVragenuur\nTeachers: A. Franch
+ i\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-t
+ eaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:daf052f924b8359d75ed@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270108T084500
+DTEND;TZID=Europe/Amsterdam:20270108T114500
+SUMMARY:Control Eng – Toets Chromebook
+LOCATION:NH 205\, NH 207
+DESCRIPTION:Control Engineering (202001140)\nToets Chromebook\nTeachers: A.
+  Franchi\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoity
+ pe=identifier&sharepoi=HCNH205\nMap NH 207: https://use.mazemap.com/#v=1&c
+ ampusid=171&sharepoitype=identifier&sharepoi=HCNH207\nFrom TimeEdit\, upda
+ ted 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c911a4f0893b9e896a16@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270108T134500
+DTEND;TZID=Europe/Amsterdam:20270108T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nNote: Catch-Up\nFrom TimeEdi
+ t\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedul
+ es/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:24aaac56326fb6642c16@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270111T084500
+DTEND;TZID=Europe/Amsterdam:20270111T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:31b5dde25d1b51a1db54@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270112T084500
+DTEND;TZID=Europe/Amsterdam:20270112T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:59bd3c562e98744e240c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270113T084500
+DTEND;TZID=Europe/Amsterdam:20270113T103000
+SUMMARY:Control Eng – Toets Inzage
+LOCATION:CR 2K
+DESCRIPTION:Control Engineering (202001140)\nToets Inzage\nTeachers: A. Fra
+ nchi\nMap CR 2K: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=CRC2183\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2183
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:61f2a84ba193941aef95@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270114T084500
+DTEND;TZID=Europe/Amsterdam:20270114T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4fd5c91c998ec878ad05@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270115T084500
+DTEND;TZID=Europe/Amsterdam:20270115T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b47a0c9865947b394de9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270118T084500
+DTEND;TZID=Europe/Amsterdam:20270118T173000
+SUMMARY:Project S&C – Presentatie(s)
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nPresentatie(s)\nTeachers: A. Franchi\n
+ Map OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identif
+ ier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=17
+ 1&sharepoitype=identifier&sharepoi=HCOH113\nNote: Model Presentation\nFrom
+  TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching
+ -schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5024595cda4d9ce8bd2e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270121T084500
+DTEND;TZID=Europe/Amsterdam:20270121T103000
+SUMMARY:Control Eng – Vragenuur
+LOCATION:**Online
+DESCRIPTION:Control Engineering (202001140)\nVragenuur\nTeachers: A. Franch
+ i\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-t
+ eaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:04c88f04e17469093dc3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270122T134500
+DTEND;TZID=Europe/Amsterdam:20270122T164500
+SUMMARY:Control Eng – Toets Chromebook
+LOCATION:NH 205
+DESCRIPTION:Control Engineering (202001140)\nToets Chromebook\nTeachers: A.
+  Franchi\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoity
+ pe=identifier&sharepoi=HCNH205\nNote: Resit\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:00dcbbf44151364e244f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270125T084500
+DTEND;TZID=Europe/Amsterdam:20270125T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2661aec7ba5ca5dc4a39@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270126T084500
+DTEND;TZID=Europe/Amsterdam:20270126T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:46a417f8ad7d764c8ad8@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270127T084500
+DTEND;TZID=Europe/Amsterdam:20270127T173000
+SUMMARY:Project S&C – Project begeleid
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nProject begeleid\nTeachers: A. Franchi
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCOH113\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8020668685509727edfd@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270128T084500
+DTEND;TZID=Europe/Amsterdam:20270128T173000
+SUMMARY:Project S&C – Presentatie(s)
+LOCATION:OH 111\, OH 113
+DESCRIPTION:Project S&C (202001142)\nPresentatie(s)\nTeachers: A. Franchi\n
+ Map OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identif
+ ier&sharepoi=HCOH111\nMap OH 113: https://use.mazemap.com/#v=1&campusid=17
+ 1&sharepoitype=identifier&sharepoi=HCOH113\nNote: RELbot Project Exam\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4658757ae6264d1b200c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270129T084500
+DTEND;TZID=Europe/Amsterdam:20270129T093000
+SUMMARY:Control Eng – Toets Inzage
+LOCATION:CR 2G
+DESCRIPTION:Control Engineering (202001140)\nToets Inzage\nTeachers: A. Fra
+ nchi\nMap CR 2G: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=CRC2173\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2173
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,566 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Bernard Geurts
+X-WR-CALDESC:Teaching activities of Bernard Geurts\, University of Twente\,
+  from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:54196041789c206fde60@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261110T104500
+DTEND;TZID=Europe/Amsterdam:20261110T123000
+SUMMARY:Num PDE – Hoorcollege
+LOCATION:OH 111
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nHoorcollege\nTeachers
+ : B.J. Geurts\nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&share
+ poitype=identifier&sharepoi=HCOH111\nFrom TimeEdit\, updated 19 Nov 2026. 
+ https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ad7b72f7f81713866d58@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261113T104500
+DTEND;TZID=Europe/Amsterdam:20261113T123000
+SUMMARY:Num PDE – Hoorcollege
+LOCATION:HT 500A
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nHoorcollege\nTeachers
+ : B.J. Geurts\nMap HT 500A: https://use.mazemap.com/#v=1&campusid=171&shar
+ epoitype=identifier&sharepoi=HCT500A\nFrom TimeEdit\, updated 19 Nov 2026.
+  https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT500A
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c5584d2226f0cc7ce7e0@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261117T104500
+DTEND;TZID=Europe/Amsterdam:20261117T123000
+SUMMARY:Num PDE – Hoorcollege
+LOCATION:CR 2G
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nHoorcollege\nTeachers
+ : B.J. Geurts\nMap CR 2G: https://use.mazemap.com/#v=1&campusid=171&sharep
+ oitype=identifier&sharepoi=CRC2173\nFrom TimeEdit\, updated 19 Nov 2026. h
+ ttps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2173
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ee8fca49f5229299c0b9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261120T084500
+DTEND;TZID=Europe/Amsterdam:20261120T103000
+SUMMARY:Num PDE – Hoorcollege
+LOCATION:HT 500B
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nHoorcollege\nTeachers
+ : B.J. Geurts\nMap HT 500B: https://use.mazemap.com/#v=1&campusid=171&shar
+ epoitype=identifier&sharepoi=HCT500B\nFrom TimeEdit\, updated 19 Nov 2026.
+  https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT500B
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a457c8f5048a81e1c873@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261120T104500
+DTEND;TZID=Europe/Amsterdam:20261120T123000
+SUMMARY:Num PDE – Zelfstudie met begeleiding
+LOCATION:CR 3E
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nZelfstudie met begele
+ iding\nTeachers: B.J. Geurts\, T.M. Tyranowski\nMap CR 3E: https://use.maz
+ emap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRC3182\nFrom 
+ TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-
+ schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3182
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5e099609ad749712138f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261124T104500
+DTEND;TZID=Europe/Amsterdam:20261124T123000
+SUMMARY:Num PDE – Hoorcollege
+LOCATION:HT 500B
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nHoorcollege\nTeachers
+ : B.J. Geurts\nMap HT 500B: https://use.mazemap.com/#v=1&campusid=171&shar
+ epoitype=identifier&sharepoi=HCT500B\nFrom TimeEdit\, updated 19 Nov 2026.
+  https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT500B
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6978cd6ae38825848fb1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261127T084500
+DTEND;TZID=Europe/Amsterdam:20261127T103000
+SUMMARY:Num PDE – Hoorcollege
+LOCATION:RA 3237
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nHoorcollege\nTeachers
+ : B.J. Geurts\nMap RA 3237: https://use.mazemap.com/#v=1&campusid=171&shar
+ epoitype=identifier&sharepoi=RA3237\nFrom TimeEdit\, updated 19 Nov 2026. 
+ https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA3237
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:edb163293a2696f34850@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261127T104500
+DTEND;TZID=Europe/Amsterdam:20261127T123000
+SUMMARY:Num PDE – Zelfstudie met begeleiding
+LOCATION:OH 116
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nZelfstudie met begele
+ iding\nTeachers: B.J. Geurts\, T.M. Tyranowski\nMap OH 116: https://use.ma
+ zemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=HCOH116\nFrom
+  TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching
+ -schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH116
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:71df03daa2f6568b39ee@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261204T104500
+DTEND;TZID=Europe/Amsterdam:20261204T123000
+SUMMARY:Num PDE – Zelfstudie met begeleiding
+LOCATION:CR 3A
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nZelfstudie met begele
+ iding\nTeachers: B.J. Geurts\, T.M. Tyranowski\nMap CR 3A: https://use.maz
+ emap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRC3173\nFrom 
+ TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-
+ schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3173
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:57230f496003a51cf106@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261211T104500
+DTEND;TZID=Europe/Amsterdam:20261211T123000
+SUMMARY:Num PDE – Zelfstudie met begeleiding
+LOCATION:HB 2F
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nZelfstudie met begele
+ iding\nTeachers: B.J. Geurts\, T.M. Tyranowski\nMap HB 2F: https://use.maz
+ emap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRB2011\nFrom 
+ TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-
+ schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRB2011
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ab55e5b3aa756dbed4a4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261218T104500
+DTEND;TZID=Europe/Amsterdam:20261218T123000
+SUMMARY:Num PDE – Zelfstudie met begeleiding
+LOCATION:RA 2231
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nZelfstudie met begele
+ iding\nTeachers: B.J. Geurts\, T.M. Tyranowski\nMap RA 2231: https://use.m
+ azemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=RA2231\nFrom
+  TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching
+ -schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA2231
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:90f0fdf4ccdea61e8434@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270115T104500
+DTEND;TZID=Europe/Amsterdam:20270115T123000
+SUMMARY:Num PDE – Zelfstudie met begeleiding
+LOCATION:CR 3F
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nZelfstudie met begele
+ iding\nTeachers: B.J. Geurts\, T.M. Tyranowski\nMap CR 3F: https://use.maz
+ emap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRC3186\nFrom 
+ TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-
+ schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3186
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:989d2a10f81e41ae6c08@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270122T104500
+DTEND;TZID=Europe/Amsterdam:20270122T123000
+SUMMARY:Num PDE – Responsiecollege
+LOCATION:DR 102B
+DESCRIPTION:Numerical Techniques for PDE (191551150)\nResponsiecollege\nTea
+ chers: B.J. Geurts\, T.M. Tyranowski\nMap DR 102B: https://use.mazemap.com
+ /#v=1&campusid=171&sharepoitype=identifier&sharepoi=DR102B\nFrom TimeEdit\
+ , updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=DR102B
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3ee9c0ced37a5559d8c6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270202T134500
+DTEND;TZID=Europe/Amsterdam:20270202T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6e3b01edb8ba1999ecd1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270203T134500
+DTEND;TZID=Europe/Amsterdam:20270203T153000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0c866cad859a5166ed8b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270204T084500
+DTEND;TZID=Europe/Amsterdam:20270204T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8e60cebb0ce4b46c0051@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270208T104500
+DTEND;TZID=Europe/Amsterdam:20270208T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:10ee1ef4db2cda9b5223@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270211T084500
+DTEND;TZID=Europe/Amsterdam:20270211T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7cfd1ad69c466d92edab@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270211T134500
+DTEND;TZID=Europe/Amsterdam:20270211T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:424a38908f01bc6d25c4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270215T104500
+DTEND;TZID=Europe/Amsterdam:20270215T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0c7f3b5022e8c40431c1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270216T134500
+DTEND;TZID=Europe/Amsterdam:20270216T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:229ad7a93246eadde043@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270218T084500
+DTEND;TZID=Europe/Amsterdam:20270218T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5f3862bd813e05c82765@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270301T104500
+DTEND;TZID=Europe/Amsterdam:20270301T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:61d353cde29c354885a3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270302T134500
+DTEND;TZID=Europe/Amsterdam:20270302T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0186e158ef3c35b5f78c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270304T084500
+DTEND;TZID=Europe/Amsterdam:20270304T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:48e40e1394429f44f7b3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270308T104500
+DTEND;TZID=Europe/Amsterdam:20270308T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b1951236dcb60d1e6bbe@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270309T134500
+DTEND;TZID=Europe/Amsterdam:20270309T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:63ce63a261bb2e8eb7b4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270310T134500
+DTEND;TZID=Europe/Amsterdam:20270310T153000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd92cbeae59b8fe80d1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270315T104500
+DTEND;TZID=Europe/Amsterdam:20270315T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e2c0aedc62a532700f88@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270316T134500
+DTEND;TZID=Europe/Amsterdam:20270316T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c34cb9ba5c8121bde7ed@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270318T084500
+DTEND;TZID=Europe/Amsterdam:20270318T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:041aa9141ab6b965224d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270322T104500
+DTEND;TZID=Europe/Amsterdam:20270322T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:efd799efe4f092aa802f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270323T134500
+DTEND;TZID=Europe/Amsterdam:20270323T173000
+SUMMARY:PDV – Colstructie
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nColstructie\
+ nTeachers: B.J. Geurts\, L.A. van Goor\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9f698a1b012c68861fd1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270325T084500
+DTEND;TZID=Europe/Amsterdam:20270325T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbce135fef246f2adce@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270401T084500
+DTEND;TZID=Europe/Amsterdam:20270401T103000
+SUMMARY:Model Reduction – Project begeleid
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nProject begeleid\nTeachers: B.J. G
+ eurts\, S.M. Glas\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a58a0e5b3fd1a4a6334e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270405T104500
+DTEND;TZID=Europe/Amsterdam:20270405T123000
+SUMMARY:Model Reduction – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nHoorcollege\nTeachers: B.J. Geurts
+ \nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-te
+ aching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ab8899fb6693b01d78e1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270405T134500
+DTEND;TZID=Europe/Amsterdam:20270405T163000
+SUMMARY:PDV – Vragenuur
+LOCATION:**Request Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nVragenuur\nT
+ eachers: B.J. Geurts\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenh
+ uis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:830ef21778b2be9a9194@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270406T134500
+DTEND;TZID=Europe/Amsterdam:20270406T154500
+SUMMARY:PDV – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nToets Schrif
+ telijk\nTeachers: B.J. Geurts\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:89fdfe661fc679ca46e2@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270412T134500
+DTEND;TZID=Europe/Amsterdam:20270412T154500
+SUMMARY:Model Reduction – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nToets Schriftelijk\nTeachers: B.J.
+  Geurts\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7d42099bb60c5f032e3a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270416T084500
+DTEND;TZID=Europe/Amsterdam:20270416T104500
+SUMMARY:PDV – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Partiële Differentiaalvergelijkingen (202000703)\nToets Schrif
+ telijk\nTeachers: B.J. Geurts\nNote: Resit\nFrom TimeEdit\, updated 19 Nov
+  2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a221401e3cd716da39d2@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270628T084500
+DTEND;TZID=Europe/Amsterdam:20270628T104500
+SUMMARY:Model Reduction – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Model Reduction (202400636)\nToets Schriftelijk\nTeachers: B.J.
+  Geurts\nNote: Resit\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenh
+ uis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

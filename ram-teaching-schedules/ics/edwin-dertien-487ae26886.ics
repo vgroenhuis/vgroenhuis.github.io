@@ -1,0 +1,986 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Edwin Dertien
+X-WR-CALDESC:Teaching activities of Edwin Dertien\, University of Twente\, 
+ from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d4568556911cf63036a6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260831T104500
+DTEND;TZID=Europe/Amsterdam:20260831T173000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9d67a8ab03abf4518011@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260901T084500
+DTEND;TZID=Europe/Amsterdam:20260901T173000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cd781e4ba4f1051e1693@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260902T084500
+DTEND;TZID=Europe/Amsterdam:20260902T173000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:381b72e60c3acbe17343@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260910T084500
+DTEND;TZID=Europe/Amsterdam:20260910T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:CR 2M
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap C
+ R 2M: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=CRC2182\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2182
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:feba91e2fd292efe3c86@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260910T104500
+DTEND;TZID=Europe/Amsterdam:20260910T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap Z
+ I A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8e281ddfed57c54061d6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260910T134500
+DTEND;TZID=Europe/Amsterdam:20260910T173000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:28545b82b6d9faa9ad7e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260917T084500
+DTEND;TZID=Europe/Amsterdam:20260917T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:RA 2502
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap R
+ A 2502: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=RA2502\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA2502
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:26ebe2f2bbb2e4fd1ce4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260917T104500
+DTEND;TZID=Europe/Amsterdam:20260917T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap Z
+ I A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c07cfdafb2e89170e56a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260917T134500
+DTEND;TZID=Europe/Amsterdam:20260917T153000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b405fc52bf78b5abc55d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260924T084500
+DTEND;TZID=Europe/Amsterdam:20260924T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:CR 2N
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap C
+ R 2N: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=CRC2186\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2186
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ee153bb1c3624c6935ac@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260924T104500
+DTEND;TZID=Europe/Amsterdam:20260924T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap Z
+ I A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:39ce41d4b6bc4a8d3dbc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260924T134500
+DTEND;TZID=Europe/Amsterdam:20260924T173000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:47c7e1bfbaea460fbf2f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260928T134500
+DTEND;TZID=Europe/Amsterdam:20260928T151500
+SUMMARY:Sensors – Toets Schriftelijk
+LOCATION:NH 124
+DESCRIPTION:Sensors (202600289)\nToets Schriftelijk\nTeachers: E.C. Dertien
+ \nMap NH 124: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCNH124\nNote: Exam 1\nModule: M5A Smart Tech\nFrom TimeEdi
+ t\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedul
+ es/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH124
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5b54f41fe88a69ec27bf@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261001T084500
+DTEND;TZID=Europe/Amsterdam:20261001T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:VR Audiozaal
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap V
+ R Audiozaal: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identi
+ fier&sharepoi=VR101\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=VR101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6b56c3e65efaf4bb5da7@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261001T104500
+DTEND;TZID=Europe/Amsterdam:20261001T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap Z
+ I A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2ca1ec66ee6c5df95fde@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261001T134500
+DTEND;TZID=Europe/Amsterdam:20261001T153000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c234497592623c33466d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261001T154500
+DTEND;TZID=Europe/Amsterdam:20261001T173000
+SUMMARY:Sensors – Toets Inzage
+LOCATION:CR 3B
+DESCRIPTION:Sensors (202600289)\nToets Inzage\nTeachers: E.C. Dertien\nMap 
+ CR 3B: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=CRC3175\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3175
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ad8d0f796b7eda62a583@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261008T084500
+DTEND;TZID=Europe/Amsterdam:20261008T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:RA 2502
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap R
+ A 2502: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=RA2502\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA2502
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8b296ec9ddad0b25d998@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261008T104500
+DTEND;TZID=Europe/Amsterdam:20261008T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:CR 2N
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap C
+ R 2N: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=CRC2186\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2186
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:84b3f0b6f55bd1e65ee9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261008T134500
+DTEND;TZID=Europe/Amsterdam:20261008T173000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0de21505296f0ebd0659@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261015T084500
+DTEND;TZID=Europe/Amsterdam:20261015T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:CR 2N
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap C
+ R 2N: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=CRC2186\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2186
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a118e233ee1473ed13@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261015T104500
+DTEND;TZID=Europe/Amsterdam:20261015T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:CR 2N
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap C
+ R 2N: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=CRC2186\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 202
+ 6. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2186
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:21265a0eae07227e6efe@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261015T134500
+DTEND;TZID=Europe/Amsterdam:20261015T153000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:255516c7ff7a7cadf3e8@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261022T084500
+DTEND;TZID=Europe/Amsterdam:20261022T103000
+SUMMARY:Sensors – Hoorcollege
+LOCATION:RA 1501
+DESCRIPTION:Sensors (202600289)\nHoorcollege\nTeachers: E.C. Dertien\nMap R
+ A 1501: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=RA1501\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA1501
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:41478a8e3c08d4947d67@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261022T104500
+DTEND;TZID=Europe/Amsterdam:20261022T123000
+SUMMARY:Sensors – Werkcollege
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nWerkcollege\nTeachers: E.C. Dertien\nMap Z
+ I A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 20
+ 26. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:99cda95f6be98c0e7400@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261022T134500
+DTEND;TZID=Europe/Amsterdam:20261022T153000
+SUMMARY:Sensors – Practicum
+LOCATION:ZI A138
+DESCRIPTION:Sensors (202600289)\nPracticum\nTeachers: E.C. Dertien\nMap ZI 
+ A138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=ZIA138\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2026
+ . https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1739264192bbcda3b2cb@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261026T134500
+DTEND;TZID=Europe/Amsterdam:20261026T151500
+SUMMARY:Sensors – Toets Schriftelijk
+LOCATION:NH 209
+DESCRIPTION:Sensors (202600289)\nToets Schriftelijk\nTeachers: E.C. Dertien
+ \nMap NH 209: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCNH209\nNote: Exam 2\nModule: M5A Smart Tech\nFrom TimeEdi
+ t\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedul
+ es/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH209
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc8c0e2f7a67a7e5965@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261026T154500
+DTEND;TZID=Europe/Amsterdam:20261026T173000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:43c1abe3650ce9b1f822@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261027T084500
+DTEND;TZID=Europe/Amsterdam:20261027T173000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3a6b32aa17d5927fa8cb@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261028T084500
+DTEND;TZID=Europe/Amsterdam:20261028T220000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:327df582fe234f331986@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261029T084500
+DTEND;TZID=Europe/Amsterdam:20261029T220000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:65ef4da278a759a4bacc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261030T084500
+DTEND;TZID=Europe/Amsterdam:20261030T173000
+SUMMARY:Hackathon – Project begeleid
+LOCATION:ZI A138
+DESCRIPTION:Hackathon (202400432)\nProject begeleid\nTeachers: E.C. Dertien
+ \, L. Li\, V. Groenhuis\nMap ZI A138: https://use.mazemap.com/#v=1&campusi
+ d=171&sharepoitype=identifier&sharepoi=ZIA138\nModule: M5A Smart Tech\nFro
+ m TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachin
+ g-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=ZIA138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8f75f9e0d1ffcc5f6e67@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261102T104500
+DTEND;TZID=Europe/Amsterdam:20261102T123000
+SUMMARY:Sensors – Toets Inzage
+LOCATION:RA 2231
+DESCRIPTION:Sensors (202600289)\nToets Inzage\nTeachers: E.C. Dertien\nMap 
+ RA 2231: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier
+ &sharepoi=RA2231\nModule: M5A Smart Tech\nFrom TimeEdit\, updated 19 Nov 2
+ 026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA2231
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0cae2317b24940680d83@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261105T134500
+DTEND;TZID=Europe/Amsterdam:20261105T164500
+SUMMARY:Sensors – Toets Schriftelijk
+LOCATION:OH 111
+DESCRIPTION:Sensors (202600289)\nToets Schriftelijk\nTeachers: E.C. Dertien
+ \nMap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=ident
+ ifier&sharepoi=HCOH111\nNote: Resit\; Exam 1+2\nModule: M5A Smart Tech\nFr
+ om TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teachi
+ ng-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b873a7b18aed642612b6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T104500
+DTEND;TZID=Europe/Amsterdam:20261109T123000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:CR 3C
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap CR
+  3C: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sha
+ repoi=CRC3183\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.git
+ hub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3183
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:98589bcf5a0363bc0ed0@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261109T134500
+DTEND;TZID=Europe/Amsterdam:20261109T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b3788166fbfd379e6600@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261116T104500
+DTEND;TZID=Europe/Amsterdam:20261116T123000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:OH 115
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap OH
+  115: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=HCOH115\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH115
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f74dff9768a8d57fec91@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261116T134500
+DTEND;TZID=Europe/Amsterdam:20261116T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1f9872136d8d12b188e6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261123T104500
+DTEND;TZID=Europe/Amsterdam:20261123T123000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8b0e49127803a15453c5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261123T134500
+DTEND;TZID=Europe/Amsterdam:20261123T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4619fa7de5e51345e714@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261130T104500
+DTEND;TZID=Europe/Amsterdam:20261130T123000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:CR 3C
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap CR
+  3C: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sha
+ repoi=CRC3183\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.git
+ hub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3183
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:186fb14d48e688abf034@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261130T134500
+DTEND;TZID=Europe/Amsterdam:20261130T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:da985eb409488a298557@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261207T104500
+DTEND;TZID=Europe/Amsterdam:20261207T123000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5236c24a06351d650476@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261207T134500
+DTEND;TZID=Europe/Amsterdam:20261207T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:CR 3C
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap CR
+  3C: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sha
+ repoi=CRC3183\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.git
+ hub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3183
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:66f2852780b8f69c2311@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261214T104500
+DTEND;TZID=Europe/Amsterdam:20261214T123000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c559904dfec6b1b61ce9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261214T134500
+DTEND;TZID=Europe/Amsterdam:20261214T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9ed0a190b12d38d08f2c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270104T134500
+DTEND;TZID=Europe/Amsterdam:20270104T153000
+SUMMARY:SE Core – Hoorcollege
+LOCATION:HT 900
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nHoorcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap HT
+  900: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=HCT900\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.git
+ hub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT900
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f52d07e3665a4118e286@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270104T154500
+DTEND;TZID=Europe/Amsterdam:20270104T173000
+SUMMARY:SE Core – Werkcollege
+LOCATION:TL 3138
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nWerkcollege\nTeachers: A.H. Mader\, E.C. Dertien\nMap TL
+  3138: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&s
+ harepoi=TL3138\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3138
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:aaa2357eba54893c1364@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270111T084500
+DTEND;TZID=Europe/Amsterdam:20270111T103000
+SUMMARY:SE Core – Toets Schriftelijk
+LOCATION:SC 1
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nToets Schriftelijk\nTeachers: A.H. Mader\, E.C. Dertien\
+ nMap SC 1: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifi
+ er&sharepoi=SC012\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SC012
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8e97e786dda0e52a0fd3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270118T154500
+DTEND;TZID=Europe/Amsterdam:20270118T173000
+SUMMARY:SE Core – Toets Inzage
+LOCATION:CR 3G
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nToets Inzage\nTeachers: A.H. Mader\, E.C. Dertien\nMap C
+ R 3G: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sh
+ arepoi=CRC3190\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gi
+ thub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3190
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e83b379714d97e2601@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270125T134500
+DTEND;TZID=Europe/Amsterdam:20270125T173000
+SUMMARY:SE Core – Presentatie(s)
+LOCATION:OH 110
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nPresentatie(s)\nTeachers: A.H. Mader\, E.C. Dertien\nMap
+  OH 110: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier
+ &sharepoi=HCOH110\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH110
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:eb3a86f40fe137156738@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270126T104500
+DTEND;TZID=Europe/Amsterdam:20270126T173000
+SUMMARY:SE Core – Presentatie(s)
+LOCATION:OH 210
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nPresentatie(s)\nTeachers: A.H. Mader\, E.C. Dertien\nMap
+  OH 210: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier
+ &sharepoi=HCOH210\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH210
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bd7d0ee4ab8fb8d236fa@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270128T084500
+DTEND;TZID=Europe/Amsterdam:20270128T103000
+SUMMARY:SE Core – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Smart Environments Core (202100240)\nProgramming & Physical Com
+ puting 202100240\nToets Schriftelijk\nTeachers: A.H. Mader\, E.C. Dertien\
+ nNote: Resit\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.gith
+ ub.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d305870b76e0078a63be@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270204T084500
+DTEND;TZID=Europe/Amsterdam:20270204T123000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:65aa04eaa0c9ca0e1e55@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270209T134500
+DTEND;TZID=Europe/Amsterdam:20270209T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a669b75f33ce671ca84c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270216T134500
+DTEND;TZID=Europe/Amsterdam:20270216T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f4c83b6d08c60d20fe8a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270302T134500
+DTEND;TZID=Europe/Amsterdam:20270302T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5595300272e47e22a7a5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270309T134500
+DTEND;TZID=Europe/Amsterdam:20270309T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9bbd821b98f592df7244@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270316T134500
+DTEND;TZID=Europe/Amsterdam:20270316T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bd8f64e97de52e3f7908@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270323T134500
+DTEND;TZID=Europe/Amsterdam:20270323T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6365323b4c54efa5e660@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270330T134500
+DTEND;TZID=Europe/Amsterdam:20270330T173000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.79 Inform
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.79 Inform: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a812bcc824504078f271@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270406T084500
+DTEND;TZID=Europe/Amsterdam:20270406T123000
+SUMMARY:Tinkering – Colstructie
+LOCATION:GY 1.78 Learn-X
+DESCRIPTION:Mastering Tinkering (201800228)\nColstructie\nTeachers: A.H. Ma
+ der\, E.C. Dertien\nMap GY 1.78 Learn-X: https://use.mazemap.com/#v=1&camp
+ usid=171&sharepoitype=identifier&sharepoi=GY\nFrom TimeEdit\, updated 19 N
+ ov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=GY
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

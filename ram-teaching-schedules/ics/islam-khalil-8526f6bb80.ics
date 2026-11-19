@@ -1,0 +1,811 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Islam Khalil
+X-WR-CALDESC:Teaching activities of Islam Khalil\, University of Twente\, f
+ rom TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:af428e25df2683d2a365@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260908T134500
+DTEND;TZID=Europe/Amsterdam:20260908T153000
+SUMMARY:Nano-Biorobotics – Project begeleid
+LOCATION:HT 700B
+DESCRIPTION:Project: Van Nanodevices tot Biorobotics (202500419)\nProject b
+ egeleid\nTeachers: I.S.M. Khalil\nMap HT 700B: https://use.mazemap.com/#v=
+ 1&campusid=171&sharepoitype=identifier&sharepoi=HCT700B\nFrom TimeEdit\, u
+ pdated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCT700B
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:21a1513782ab11dbe3ad@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261012T134500
+DTEND;TZID=Europe/Amsterdam:20261012T153000
+SUMMARY:Nano-Biorobotics – Project begeleid
+LOCATION:LA 2209 + 2211
+DESCRIPTION:Project: Van Nanodevices tot Biorobotics (202500419)\nProject b
+ egeleid\nTeachers: I.S.M. Khalil\nMap LA 2209 + 2211: https://use.mazemap.
+ com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=LA2209\nFrom TimeEd
+ it\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedu
+ les/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=LA2209
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:25dd57e7849b4a7af685@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261130T154500
+DTEND;TZID=Europe/Amsterdam:20261130T173000
+SUMMARY:CSDR – Hoorcollege
+LOCATION:HR C101
+DESCRIPTION:Control System Design for Robotics (202200104)\nHoorcollege\nTe
+ achers: I.S.M. Khalil\nMap HR C101: https://use.mazemap.com/#v=1&campusid=
+ 171&sharepoitype=identifier&sharepoi=HCC101\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCC101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d545561f1d0f91329b23@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261202T134500
+DTEND;TZID=Europe/Amsterdam:20261202T153000
+SUMMARY:CSDR – Werkcollege
+LOCATION:NH 209
+DESCRIPTION:Control System Design for Robotics (202200104)\nWerkcollege\nTe
+ achers: I.S.M. Khalil\nMap NH 209: https://use.mazemap.com/#v=1&campusid=1
+ 71&sharepoitype=identifier&sharepoi=HCNH209\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH209
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7f037a1b8cde54095d11@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261208T134500
+DTEND;TZID=Europe/Amsterdam:20261208T161500
+SUMMARY:CSDR – Toets Schriftelijk
+LOCATION:TL 3130\, TL 3330
+DESCRIPTION:Control System Design for Robotics (202200104)\nToets Schriftel
+ ijk\nTeachers: A.Q.L. Keemink\, I.S.M. Khalil\nMap TL 3130: https://use.ma
+ zemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=TL3130\nMap T
+ L 3330: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&
+ sharepoi=TL3330\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.g
+ ithub.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TL3130
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d804c30dac362c01a3da@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270114T134500
+DTEND;TZID=Europe/Amsterdam:20270114T153000
+SUMMARY:CSDR – Toets Inzage
+LOCATION:NH 209
+DESCRIPTION:Control System Design for Robotics (202200104)\nToets Inzage\nT
+ eachers: A.Q.L. Keemink\, I.S.M. Khalil\nMap NH 209: https://use.mazemap.c
+ om/#v=1&campusid=171&sharepoitype=identifier&sharepoi=HCNH209\nFrom TimeEd
+ it\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedu
+ les/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH209
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:254d76bc05d0e6d16c71@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270121T154500
+DTEND;TZID=Europe/Amsterdam:20270121T173000
+SUMMARY:CSDR – Hoorcollege
+LOCATION:HR C101
+DESCRIPTION:Control System Design for Robotics (202200104)\nHoorcollege\nTe
+ achers: A.Q.L. Keemink\, H. Koroglu\, I.S.M. Khalil\, W.B.J. Hakvoort\nMap
+  HR C101: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifie
+ r&sharepoi=HCC101\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis
+ .github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCC101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a01695e113c0b396dfb5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270203T104500
+DTEND;TZID=Europe/Amsterdam:20270203T123000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:370d5e2a312e1f8d94af@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270204T104500
+DTEND;TZID=Europe/Amsterdam:20270204T123000
+SUMMARY:Nonlinear Control – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Nonlinear Control (201900085)\nHoorcollege\nTeachers: I.S.M. Kh
+ alil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ra
+ m-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:be07b905a844068bc8cf@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270205T104500
+DTEND;TZID=Europe/Amsterdam:20270205T123000
+SUMMARY:Prog 2 – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nHoorcollege\nTeachers: I.S.M. Khalil
+ \, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0ded7a8c75410883130a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270205T104500
+DTEND;TZID=Europe/Amsterdam:20270205T123000
+SUMMARY:SDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nHoorcollege\nTea
+ chers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a66e005b3b8930961d94@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270208T084500
+DTEND;TZID=Europe/Amsterdam:20270208T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ff5480a2d2fa4f5c4cd4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270208T084500
+DTEND;TZID=Europe/Amsterdam:20270208T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:338452c6c0b9c5b7053e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270209T104500
+DTEND;TZID=Europe/Amsterdam:20270209T123000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a8284756208b8cf4f270@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270209T134500
+DTEND;TZID=Europe/Amsterdam:20270209T153000
+SUMMARY:Nonlinear Control – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Nonlinear Control (201900085)\nHoorcollege\nTeachers: I.S.M. Kh
+ alil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ra
+ m-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7198998c4fa97142df2d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270210T084500
+DTEND;TZID=Europe/Amsterdam:20270210T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\n
+ From TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teac
+ hing-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:99da54e59d2513a71cc1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270210T084500
+DTEND;TZID=Europe/Amsterdam:20270210T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhui
+ s.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7cf2db3b5f8f6b7783a1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270211T084500
+DTEND;TZID=Europe/Amsterdam:20270211T103000
+SUMMARY:AIGR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:AI- and Image-guided Robotics (202400681)\nHoorcollege\nTeacher
+ s: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.
+ github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a1a5a4dae36937010b31@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270212T104500
+DTEND;TZID=Europe/Amsterdam:20270212T123000
+SUMMARY:Prog 2 – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nHoorcollege\nTeachers: I.S.M. Khalil
+ \, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fa100e76564f3d3ca74e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270212T104500
+DTEND;TZID=Europe/Amsterdam:20270212T123000
+SUMMARY:SDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nHoorcollege\nTea
+ chers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d8dcfebff74d9f7e3834@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270215T084500
+DTEND;TZID=Europe/Amsterdam:20270215T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:16cd7ddf9d4ff77e8928@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270215T084500
+DTEND;TZID=Europe/Amsterdam:20270215T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d3b0a51fe77c18133a93@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270215T134500
+DTEND;TZID=Europe/Amsterdam:20270215T153000
+SUMMARY:Nonlinear Control – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Nonlinear Control (201900085)\nHoorcollege\nTeachers: I.S.M. Kh
+ alil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ra
+ m-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:60f69dca2271e474d6a9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270217T084500
+DTEND;TZID=Europe/Amsterdam:20270217T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\n
+ From TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teac
+ hing-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8b249510006c387c2025@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270217T084500
+DTEND;TZID=Europe/Amsterdam:20270217T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhui
+ s.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6a348dd2f03c3fa201c1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270217T134500
+DTEND;TZID=Europe/Amsterdam:20270217T153000
+SUMMARY:AIGR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:AI- and Image-guided Robotics (202400681)\nHoorcollege\nTeacher
+ s: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.
+ github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a99870da8b9c527de573@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270218T154500
+DTEND;TZID=Europe/Amsterdam:20270218T173000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:716a31b75615c9b88cc4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270219T104500
+DTEND;TZID=Europe/Amsterdam:20270219T123000
+SUMMARY:Prog 2 – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nHoorcollege\nTeachers: I.S.M. Khalil
+ \, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c47003f3412c6ab38b0b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270219T104500
+DTEND;TZID=Europe/Amsterdam:20270219T123000
+SUMMARY:SDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nHoorcollege\nTea
+ chers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3dd0b9e13b590a6a12af@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270301T084500
+DTEND;TZID=Europe/Amsterdam:20270301T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:abb7774a3a5aa38ddc85@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270301T084500
+DTEND;TZID=Europe/Amsterdam:20270301T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c7638d90bb89e8a27d38@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270302T084500
+DTEND;TZID=Europe/Amsterdam:20270302T103000
+SUMMARY:Nonlinear Control – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Nonlinear Control (201900085)\nHoorcollege\nTeachers: I.S.M. Kh
+ alil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ra
+ m-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2b7f1d66406d746171a5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270303T084500
+DTEND;TZID=Europe/Amsterdam:20270303T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\n
+ From TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teac
+ hing-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8fa1f36d840bac8304c3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270303T084500
+DTEND;TZID=Europe/Amsterdam:20270303T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhui
+ s.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3674a19dde3c5ffb3132@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270304T154500
+DTEND;TZID=Europe/Amsterdam:20270304T173000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:099739c254dbe532232e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270305T104500
+DTEND;TZID=Europe/Amsterdam:20270305T123000
+SUMMARY:Prog 2 – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nHoorcollege\nTeachers: I.S.M. Khalil
+ \, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:acee6efc8e47badb8c3e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270305T104500
+DTEND;TZID=Europe/Amsterdam:20270305T123000
+SUMMARY:SDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nHoorcollege\nTea
+ chers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:173804b3f06d604c82ec@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270308T084500
+DTEND;TZID=Europe/Amsterdam:20270308T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ef4e5c5455a595cd1eb1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270308T084500
+DTEND;TZID=Europe/Amsterdam:20270308T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8d6d09933ebab2ea4300@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270309T104500
+DTEND;TZID=Europe/Amsterdam:20270309T123000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d677037657222464b682@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270310T084500
+DTEND;TZID=Europe/Amsterdam:20270310T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\n
+ From TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teac
+ hing-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d013e26d6a0313518e7e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270310T084500
+DTEND;TZID=Europe/Amsterdam:20270310T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhui
+ s.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:80175724af6bff89164f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270312T154500
+DTEND;TZID=Europe/Amsterdam:20270312T173000
+SUMMARY:Prog 2 – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nHoorcollege\nTeachers: I.S.M. Khalil
+ \, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:93ac5fe52b4cecd92dd4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270312T154500
+DTEND;TZID=Europe/Amsterdam:20270312T173000
+SUMMARY:SDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nHoorcollege\nTea
+ chers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b9e3e2c54959c7491bca@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270315T084500
+DTEND;TZID=Europe/Amsterdam:20270315T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2ab81d4f64cb5e4f01b4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270315T084500
+DTEND;TZID=Europe/Amsterdam:20270315T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8a5ae035b375370e7370@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270317T084500
+DTEND;TZID=Europe/Amsterdam:20270317T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\n
+ From TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teac
+ hing-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:58193d3c062b58d06c03@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270317T084500
+DTEND;TZID=Europe/Amsterdam:20270317T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhui
+ s.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c971df1288ee4e743509@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270318T134500
+DTEND;TZID=Europe/Amsterdam:20270318T153000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d787f407e91d9fb20217@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270319T154500
+DTEND;TZID=Europe/Amsterdam:20270319T173000
+SUMMARY:Prog 2 – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nHoorcollege\nTeachers: I.S.M. Khalil
+ \, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5c2af52adbf8bd44d73d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270319T154500
+DTEND;TZID=Europe/Amsterdam:20270319T173000
+SUMMARY:SDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nHoorcollege\nTea
+ chers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f39879b1f777c7e6e7e5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270322T084500
+DTEND;TZID=Europe/Amsterdam:20270322T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c63d3b09bdbd891d011c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270322T084500
+DTEND;TZID=Europe/Amsterdam:20270322T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1f5f017250f6fcd0f29e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270323T084500
+DTEND;TZID=Europe/Amsterdam:20270323T103000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c6997c940b96b36e9c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270324T084500
+DTEND;TZID=Europe/Amsterdam:20270324T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\n
+ From TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teac
+ hing-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:87144fe8c6c6f698a2e7@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270324T084500
+DTEND;TZID=Europe/Amsterdam:20270324T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhui
+ s.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c2214813682b95e2153e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270325T084500
+DTEND;TZID=Europe/Amsterdam:20270325T123000
+SUMMARY:Prog 2 – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Programming 2 (202001152)\nPracticum\nTeachers: I.S.M. Khalil\,
+  K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io
+ /ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2b65e2272458b96c5e4b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270325T084500
+DTEND;TZID=Europe/Amsterdam:20270325T123000
+SUMMARY:SDR – Practicum
+LOCATION:**Request Room Allocation
+DESCRIPTION:Software Development for Robotics (202200108)\nPracticum\nTeach
+ ers: I.S.M. Khalil\, K. Niu\nFrom TimeEdit\, updated 19 Nov 2026. https://
+ vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:aaef7264dfac2c0f856a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270330T104500
+DTEND;TZID=Europe/Amsterdam:20270330T123000
+SUMMARY:Nonlinear Control – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Nonlinear Control (201900085)\nHoorcollege\nTeachers: I.S.M. Kh
+ alil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ra
+ m-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8f57caf00e397efd806a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270405T134500
+DTEND;TZID=Europe/Amsterdam:20270405T153000
+SUMMARY:ASDR – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Advanced Software Dev. for Robotics (202200109)\nHoorcollege\nT
+ eachers: I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroe
+ nhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1516022ee033efea28c6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270406T134500
+DTEND;TZID=Europe/Amsterdam:20270406T153000
+SUMMARY:Nonlinear Control – Hoorcollege
+LOCATION:**Request Room Allocation
+DESCRIPTION:Nonlinear Control (201900085)\nHoorcollege\nTeachers: I.S.M. Kh
+ alil\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ra
+ m-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:45f0981641575bc6b449@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270407T134500
+DTEND;TZID=Europe/Amsterdam:20270407T161500
+SUMMARY:CSDR – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Control System Design for Robotics (202200104)\nToets Schriftel
+ ijk\nTeachers: A.Q.L. Keemink\, I.S.M. Khalil\nNote: Resit\nFrom TimeEdit\
+ , updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:499f2a9de9a5c1f828f9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270416T084500
+DTEND;TZID=Europe/Amsterdam:20270416T123000
+SUMMARY:AIGR – Presentatie(s)
+LOCATION:**Request Room Allocation
+DESCRIPTION:AI- and Image-guided Robotics (202400681)\nPresentatie(s)\nTeac
+ hers: C.O. Tan\, I.S.M. Khalil\nFrom TimeEdit\, updated 19 Nov 2026. https
+ ://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

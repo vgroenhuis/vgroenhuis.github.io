@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Jurgen Fütterer
+X-WR-CALDESC:Teaching activities of Jurgen Fütterer\, University of Twente
+ \, from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:200be123267ad62ee0c6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270114T134500
+DTEND;TZID=Europe/Amsterdam:20270114T153000
+SUMMARY:US & Hemodialyse – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:US en Hemodialyse (202400526)\nUltrasound\nHoorcollege\nTeacher
+ s: J.J. Futterer\nMap HR N109: https://use.mazemap.com/#v=1&campusid=171&s
+ harepoitype=identifier&sharepoi=HCN109\nNote: Ablatie technieken bij prost
+ aatkanker\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.
+ io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b33030a6e728e809e94a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270125T134500
+DTEND;TZID=Europe/Amsterdam:20270125T144500
+SUMMARY:US & Hemodialyse – Toets Chromebook
+LOCATION:Therm 2
+DESCRIPTION:US en Hemodialyse (202400526)\nToets Chromebook\nTeachers: D. S
+ tamatialis\, J.J. Futterer\, M. Versluis\nMap Therm 2: https://use.mazemap
+ .com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=TM101\nFrom TimeEd
+ it\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedu
+ les/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ac4cad260ed69bfd49e7@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270309T124500
+DTEND;TZID=Europe/Amsterdam:20270309T133000
+SUMMARY:US & Hemodialyse – Toets Inzage
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:US en Hemodialyse (202400526)\nToets Inzage\nTeachers: D. Stama
+ tialis\, J.J. Futterer\, M. Versluis\nNote: Resit\nFrom TimeEdit\, updated
+  19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:096bd59ac0d3c7f6d0ff@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270322T084500
+DTEND;TZID=Europe/Amsterdam:20270322T094500
+SUMMARY:US & Hemodialyse – Toets Chromebook
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:US en Hemodialyse (202400526)\nToets Chromebook\nTeachers: D. S
+ tamatialis\, J.J. Futterer\, M. Versluis\nNote: Resit\nFrom TimeEdit\, upd
+ ated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

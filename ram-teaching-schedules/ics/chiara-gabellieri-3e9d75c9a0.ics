@@ -1,0 +1,303 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Chiara Gabellieri
+X-WR-CALDESC:Teaching activities of Chiara Gabellieri\, University of Twent
+ e\, from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4fcd5fa126ec8bae19f6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260902T104500
+DTEND;TZID=Europe/Amsterdam:20260902T123000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:NH 205
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCNH205\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:87dd2a399e1884956ae4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260904T104500
+DTEND;TZID=Europe/Amsterdam:20260904T123000
+SUMMARY:Robot Kin – Werkcollege
+LOCATION:WA 3
+DESCRIPTION:Robot Kinematics (202400295)\nWerkcollege\nTeachers: C. Gabelli
+ eri\nMap WA 3: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=WA143\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroen
+ huis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=WA143
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ca0a2790f0ec14fee93a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260909T104500
+DTEND;TZID=Europe/Amsterdam:20260909T123000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:WA 3
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap WA 3: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=WA143\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroen
+ huis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=WA143
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9be5da0f636269d31cde@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260911T104500
+DTEND;TZID=Europe/Amsterdam:20260911T123000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:WA 3
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap WA 3: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=WA143\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroen
+ huis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=WA143
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8541109dbdfbf105842d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260914T104500
+DTEND;TZID=Europe/Amsterdam:20260914T123000
+SUMMARY:Robot Kin – Werkcollege
+LOCATION:OH 218
+DESCRIPTION:Robot Kinematics (202400295)\nWerkcollege\nTeachers: C. Gabelli
+ eri\nMap OH 218: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCOH218\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c9516edcc30153e2eaca@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260921T104500
+DTEND;TZID=Europe/Amsterdam:20260921T123000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:NH 205
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCNH205\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:80d804bdb4257188e9b3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260930T084500
+DTEND;TZID=Europe/Amsterdam:20260930T103000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:OH 218
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap OH 218: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCOH218\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8c8cc9e56e960a4d5f2e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261001T104500
+DTEND;TZID=Europe/Amsterdam:20261001T123000
+SUMMARY:Robot Kin – Werkcollege
+LOCATION:WA 3
+DESCRIPTION:Robot Kinematics (202400295)\nWerkcollege\nTeachers: C. Gabelli
+ eri\nMap WA 3: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=WA143\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroen
+ huis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=WA143
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6aee9ae0cc20be58fd03@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261002T104500
+DTEND;TZID=Europe/Amsterdam:20261002T123000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:WA 3
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap WA 3: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=WA143\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroen
+ huis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=WA143
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8cbee05a100474bb8f2d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261007T104500
+DTEND;TZID=Europe/Amsterdam:20261007T123000
+SUMMARY:Robot Kin – Werkcollege
+LOCATION:NH 205
+DESCRIPTION:Robot Kinematics (202400295)\nWerkcollege\nTeachers: C. Gabelli
+ eri\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCNH205\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:58e538b9e525d0bc8aa9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261014T104500
+DTEND;TZID=Europe/Amsterdam:20261014T123000
+SUMMARY:Robot Kin – Hoorcollege
+LOCATION:WA 3
+DESCRIPTION:Robot Kinematics (202400295)\nHoorcollege\nTeachers: C. Gabelli
+ eri\nMap WA 3: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=iden
+ tifier&sharepoi=WA143\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroen
+ huis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=WA143
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e15fe4d366684097af5c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261014T134500
+DTEND;TZID=Europe/Amsterdam:20261014T153000
+SUMMARY:Robot Kin – Werkcollege
+LOCATION:NH 205
+DESCRIPTION:Robot Kinematics (202400295)\nWerkcollege\nTeachers: C. Gabelli
+ eri\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=id
+ entifier&sharepoi=HCNH205\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3e13e9c14efe2544c265@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261019T084500
+DTEND;TZID=Europe/Amsterdam:20261019T111500
+SUMMARY:Robot Kin – Toets Chromebook
+LOCATION:NH 205\, NH 209
+DESCRIPTION:Robot Kinematics (202400295)\nToets Chromebook\nTeachers: C. Ga
+ bellieri\nMap NH 205: https://use.mazemap.com/#v=1&campusid=171&sharepoity
+ pe=identifier&sharepoi=HCNH205\nMap NH 209: https://use.mazemap.com/#v=1&c
+ ampusid=171&sharepoitype=identifier&sharepoi=HCNH209\nFrom TimeEdit\, upda
+ ted 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH205
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:769aad70d3d186396c55@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261026T084500
+DTEND;TZID=Europe/Amsterdam:20261026T123000
+SUMMARY:BSA – Toets Inzage
+LOCATION:CR 2H
+DESCRIPTION:Biomedical Signal Analysis (202400296)\nToets Inzage\nTeachers:
+  C. Gabellieri\, J. Dasdemir\, M. Vlutters\, S.U. Yavuz\nMap CR 2H: https:
+ //use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRC21
+ 75\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-
+ teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2175
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5a6bf52eb6b9c7ad55dc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261026T084500
+DTEND;TZID=Europe/Amsterdam:20261026T123000
+SUMMARY:CRS – Toets Inzage
+LOCATION:CR 2H
+DESCRIPTION:Control of Robotic Systems (202400294)\nToets Inzage\nTeachers:
+  C. Gabellieri\, J. Dasdemir\, M. Vlutters\, S.U. Yavuz\nMap CR 2H: https:
+ //use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRC21
+ 75\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-
+ teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2175
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ae8ac6cf9d3593cad080@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261026T084500
+DTEND;TZID=Europe/Amsterdam:20261026T123000
+SUMMARY:PES – Toets Inzage
+LOCATION:CR 2H
+DESCRIPTION:PES (202400297)\nToets Inzage\nTeachers: C. Gabellieri\, J. Das
+ demir\, M. Vlutters\, S.U. Yavuz\nMap CR 2H: https://use.mazemap.com/#v=1&
+ campusid=171&sharepoitype=identifier&sharepoi=CRC2175\nFrom TimeEdit\, upd
+ ated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2175
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:346e07d3d7bebb79e588@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261026T084500
+DTEND;TZID=Europe/Amsterdam:20261026T123000
+SUMMARY:Robot Kin – Toets Inzage
+LOCATION:CR 2H
+DESCRIPTION:Robot Kinematics (202400295)\nToets Inzage\nTeachers: C. Gabell
+ ieri\, J. Dasdemir\, M. Vlutters\, S.U. Yavuz\nMap CR 2H: https://use.maze
+ map.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=CRC2175\nFrom T
+ imeEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-s
+ chedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC2175
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5d2a115e597c0012cd23@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261104T134500
+DTEND;TZID=Europe/Amsterdam:20261104T161500
+SUMMARY:Robot Kin – Toets Chromebook
+LOCATION:NH 115
+DESCRIPTION:Robot Kinematics (202400295)\nToets Chromebook\nTeachers: C. Ga
+ bellieri\nMap NH 115: https://use.mazemap.com/#v=1&campusid=171&sharepoity
+ pe=identifier&sharepoi=HCNH115\nNote: Resit\nFrom TimeEdit\, updated 19 No
+ v 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCNH115
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

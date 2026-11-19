@@ -1,0 +1,690 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Frederic Schuller
+X-WR-CALDESC:Teaching activities of Frederic Schuller\, University of Twent
+ e\, from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:940a28bcabe4697b761e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260831T104500
+DTEND;TZID=Europe/Amsterdam:20260831T123000
+SUMMARY:Analysis 1 – Hoorcollege
+LOCATION:SP 2
+DESCRIPTION:Analysis 1 (202500460)\nHoorcollege\nTeachers: F.P. Schuller\nM
+ ap SP 2: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier
+ &sharepoi=SPC105\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.
+ github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC105
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6d9c9acacf0ff72f180a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260901T104500
+DTEND;TZID=Europe/Amsterdam:20260901T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e30daa3b3c23b06a60d6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260902T084500
+DTEND;TZID=Europe/Amsterdam:20260902T103000
+SUMMARY:Analysis 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Analysis 1 (202500460)\nHoorcollege\nTeachers: F.P. Schuller\nM
+ ap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier
+ &sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhuis.
+ github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5847be664ffb1050e34e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260903T104500
+DTEND;TZID=Europe/Amsterdam:20260903T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:49ab1b5965c43db95cf4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260904T134500
+DTEND;TZID=Europe/Amsterdam:20260904T153000
+SUMMARY:Analysis 1 – Werkcollege
+LOCATION:OH 111
+DESCRIPTION:Analysis 1 (202500460)\nWerkcollege\nTeachers: F.P. Schuller\nM
+ ap OH 111: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifi
+ er&sharepoi=HCOH111\nFrom TimeEdit\, updated 19 Nov 2026. https://vgroenhu
+ is.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH111
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:93d4a84e1960c2f4e9e1@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260908T104500
+DTEND;TZID=Europe/Amsterdam:20260908T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2c0d98beb40af14204a0@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260910T104500
+DTEND;TZID=Europe/Amsterdam:20260910T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 5
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 5: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC110\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC110
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:72ed3a20bc45464e0d4a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260915T104500
+DTEND;TZID=Europe/Amsterdam:20260915T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a7f537a057c83d1cde@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260917T104500
+DTEND;TZID=Europe/Amsterdam:20260917T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:de90e7d1443d8713b68d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260922T104500
+DTEND;TZID=Europe/Amsterdam:20260922T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1a033b5cfe8b6bc300fc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260924T104500
+DTEND;TZID=Europe/Amsterdam:20260924T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 2
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 2: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC105\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC105
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:64fb6e7857262cc48fb2@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260929T104500
+DTEND;TZID=Europe/Amsterdam:20260929T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 2
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 2: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC105\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC105
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e3ee7a441f799f80663a@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261001T104500
+DTEND;TZID=Europe/Amsterdam:20261001T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b11445ef71959e4bfd28@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261006T104500
+DTEND;TZID=Europe/Amsterdam:20261006T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1b005564dc0b54ce60ad@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261008T104500
+DTEND;TZID=Europe/Amsterdam:20261008T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5b50929c9258f18b808c@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261013T104500
+DTEND;TZID=Europe/Amsterdam:20261013T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:59e39d28f7beefbdb6a4@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261015T104500
+DTEND;TZID=Europe/Amsterdam:20261015T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 6
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 6: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC119\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC119
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7f4480ee8a93b01736e6@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261020T104500
+DTEND;TZID=Europe/Amsterdam:20261020T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:HR C101
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap HR C101: https://use.mazemap.com/#v=1&campusid=171&sharepoityp
+ e=identifier&sharepoi=HCC101\nFrom TimeEdit\, updated 19 Nov 2026. https:/
+ /vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCC101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:34e0d1ed8695dd5fb01d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261022T104500
+DTEND;TZID=Europe/Amsterdam:20261022T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 2
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 2: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC105\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC105
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:49cac3e2c8ae6083233d@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261027T104500
+DTEND;TZID=Europe/Amsterdam:20261027T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 2
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 2: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC105\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC105
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:976ee1733610547e8f08@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261029T104500
+DTEND;TZID=Europe/Amsterdam:20261029T123000
+SUMMARY:Lin Struct 1 – Hoorcollege
+LOCATION:SP 2
+DESCRIPTION:Linear Structures 1 (202200141)\nHoorcollege\nTeachers: F.P. Sc
+ huller\nMap SP 2: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=i
+ dentifier&sharepoi=SPC105\nFrom TimeEdit\, updated 19 Nov 2026. https://vg
+ roenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SPC105
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7ff21b98d7d509d1ecd0@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261102T084500
+DTEND;TZID=Europe/Amsterdam:20261102T114500
+SUMMARY:Lin Struct 1 – Toets Schriftelijk
+LOCATION:SC 1
+DESCRIPTION:Linear Structures 1 (202200141)\nToets Schriftelijk\nTeachers: 
+ F.P. Schuller\, M. Melistas\nMap SC 1: https://use.mazemap.com/#v=1&campus
+ id=171&sharepoitype=identifier&sharepoi=SC012\nFrom TimeEdit\, updated 19 
+ Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SC012
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:55dd0599ac606d21d5a2@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261118T104500
+DTEND;TZID=Europe/Amsterdam:20261118T123000
+SUMMARY:Lin Struct 1 – Toets Inzage
+LOCATION:RA 2334
+DESCRIPTION:Linear Structures 1 (202200141)\nToets Inzage\nTeachers: F.P. S
+ chuller\nMap RA 2334: https://use.mazemap.com/#v=1&campusid=171&sharepoity
+ pe=identifier&sharepoi=RA2334\nFrom TimeEdit\, updated 19 Nov 2026. https:
+ //vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA2334
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4e0d51056b7cab82a07b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261123T134500
+DTEND;TZID=Europe/Amsterdam:20261123T153000
+SUMMARY:Lin Struct 1 – Vragenuur
+LOCATION:RA 2504
+DESCRIPTION:Linear Structures 1 (202200141)\nVragenuur\nTeachers: F.P. Schu
+ ller\nMap RA 2504: https://use.mazemap.com/#v=1&campusid=171&sharepoitype=
+ identifier&sharepoi=RA2504\nFrom TimeEdit\, updated 19 Nov 2026. https://v
+ groenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=RA2504
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4836856dc9125a7cb925@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261125T134500
+DTEND;TZID=Europe/Amsterdam:20261125T164500
+SUMMARY:Lin Struct 1 – Toets Schriftelijk
+LOCATION:Therm 2
+DESCRIPTION:Linear Structures 1 (202200141)\nToets Schriftelijk\nTeachers: 
+ F.P. Schuller\, J. de Jong\nMap Therm 2: https://use.mazemap.com/#v=1&camp
+ usid=171&sharepoitype=identifier&sharepoi=TM101\nNote: Resit\nFrom TimeEdi
+ t\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedul
+ es/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=TM101
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ae18c4240f29e09434de@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270201T181500
+DTEND;TZID=Europe/Amsterdam:20270201T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1f692531ad725cc6f953@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270203T181500
+DTEND;TZID=Europe/Amsterdam:20270203T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4124dfdbeb16c3464b0e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270208T181500
+DTEND;TZID=Europe/Amsterdam:20270208T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3bef986c3c377556ddf7@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270210T181500
+DTEND;TZID=Europe/Amsterdam:20270210T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dc870fc5f80423b393c2@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270215T181500
+DTEND;TZID=Europe/Amsterdam:20270215T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a2a0ef92eb42ccfc842b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270217T181500
+DTEND;TZID=Europe/Amsterdam:20270217T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4858e0746f34eb51ef5b@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270301T181500
+DTEND;TZID=Europe/Amsterdam:20270301T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cd31187a3a30e8b9d557@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270303T181500
+DTEND;TZID=Europe/Amsterdam:20270303T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:89858942dba91a8dc627@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270308T181500
+DTEND;TZID=Europe/Amsterdam:20270308T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:261614ab0e0ba3448bb3@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270310T181500
+DTEND;TZID=Europe/Amsterdam:20270310T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2a45cb3b3e549f4b7a61@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270315T181500
+DTEND;TZID=Europe/Amsterdam:20270315T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7fb348891474ac6aabeb@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270317T181500
+DTEND;TZID=Europe/Amsterdam:20270317T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc364c29e8372d8a8bc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270322T181500
+DTEND;TZID=Europe/Amsterdam:20270322T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e8f0c63e2c0e25ce48c5@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270324T181500
+DTEND;TZID=Europe/Amsterdam:20270324T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e6afde696ac8639a9d24@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270331T181500
+DTEND;TZID=Europe/Amsterdam:20270331T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ec30ab57cafd4bd70138@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270405T181500
+DTEND;TZID=Europe/Amsterdam:20270405T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7b96be254cb1f532b734@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270407T181500
+DTEND;TZID=Europe/Amsterdam:20270407T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5f0f99043b31dadcab54@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270412T181500
+DTEND;TZID=Europe/Amsterdam:20270412T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:68b6302775279ed1c850@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270414T181500
+DTEND;TZID=Europe/Amsterdam:20270414T201500
+SUMMARY:AQT – Hoorcollege
+LOCATION:CR 3D
+DESCRIPTION:Anatomy of Quantum Theory (202200091)\nHoorcollege\nTeachers: F
+ .P. Schuller\nMap CR 3D: https://use.mazemap.com/#v=1&campusid=171&sharepo
+ itype=identifier&sharepoi=CRC3178\nFrom TimeEdit\, updated 19 Nov 2026. ht
+ tps://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=CRC3178
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

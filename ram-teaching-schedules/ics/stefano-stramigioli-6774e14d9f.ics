@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//vgroenhuis.github.io//RaM teaching schedules//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teaching Stefano Stramigioli
+X-WR-CALDESC:Teaching activities of Stefano Stramigioli\, University of Twe
+ nte\, from TimeEdit
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:485d42e34a4e6c76682f@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260902T084500
+DTEND;TZID=Europe/Amsterdam:20260902T103000
+SUMMARY:MDK – Hoorcollege
+LOCATION:OH 218
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap OH 218: https://use.mazemap.com/#v=1&campus
+ id=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:730a9845f0e6c2ac5832@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260909T134500
+DTEND;TZID=Europe/Amsterdam:20260909T153000
+SUMMARY:MDK – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap HR N109: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=HCN109\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c3ef19f720e5a52217e2@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260916T084500
+DTEND;TZID=Europe/Amsterdam:20260916T103000
+SUMMARY:MDK – Hoorcollege
+LOCATION:OH 218
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap OH 218: https://use.mazemap.com/#v=1&campus
+ id=171&sharepoitype=identifier&sharepoi=HCOH218\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCOH218
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a9593558f32e3b62ef01@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260923T104500
+DTEND;TZID=Europe/Amsterdam:20260923T123000
+SUMMARY:MDK – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap HR N109: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=HCN109\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:47fdc33a179aaf7a35bc@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20260930T084500
+DTEND;TZID=Europe/Amsterdam:20260930T103000
+SUMMARY:MDK – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap HR N109: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=HCN109\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:01a720abc65bb2879c09@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261007T104500
+DTEND;TZID=Europe/Amsterdam:20261007T123000
+SUMMARY:MDK – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap HR N109: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=HCN109\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b458d1776584cd8cd9@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261014T104500
+DTEND;TZID=Europe/Amsterdam:20261014T123000
+SUMMARY:MDK – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap HR N109: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=HCN109\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fc9c6f03a6e79548c57e@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261021T134500
+DTEND;TZID=Europe/Amsterdam:20261021T173000
+SUMMARY:MDK – Hoorcollege
+LOCATION:HR N109
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nHoorcollege\
+ nTeachers: S. Stramigioli\nMap HR N109: https://use.mazemap.com/#v=1&campu
+ sid=171&sharepoitype=identifier&sharepoi=HCN109\nFrom TimeEdit\, updated 1
+ 9 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=HCN109
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f1c74204b3e607d41446@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20261104T134500
+DTEND;TZID=Europe/Amsterdam:20261104T161500
+SUMMARY:MDK – Toets Schriftelijk
+LOCATION:SC 1
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nToets Schrif
+ telijk\nTeachers: F. Califano\, S. Stramigioli\nMap SC 1: https://use.maze
+ map.com/#v=1&campusid=171&sharepoitype=identifier&sharepoi=SC012\nFrom Tim
+ eEdit\, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-sch
+ edules/
+URL:https://use.mazemap.com/#v=1&campusid=171&sharepoitype=identifier&share
+ poi=SC012
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b3d8784215f225ae34d8@vgroenhuis.github.io
+DTSTAMP:20261119T144706Z
+DTSTART;TZID=Europe/Amsterdam:20270118T084500
+DTEND;TZID=Europe/Amsterdam:20270118T111500
+SUMMARY:MDK – Toets Schriftelijk
+LOCATION:*Request Exam Room Allocation
+DESCRIPTION:Modelling\, Dynamics\, and Kinematics (202200101)\nToets Schrif
+ telijk\nTeachers: F. Califano\, S. Stramigioli\nNote: Resit\nFrom TimeEdit
+ \, updated 19 Nov 2026. https://vgroenhuis.github.io/ram-teaching-schedule
+ s/
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
