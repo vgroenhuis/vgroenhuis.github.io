@@ -66,6 +66,8 @@ main{display:flex;flex-direction:column;gap:1.75rem}
 .month h2{font-size:15px;color:var(--text-2);font-weight:500;letter-spacing:.02em;position:sticky;top:58px;
   background:var(--bg);padding-block:.25rem;z-index:4}
 .day{display:flex;flex-direction:column;gap:.4rem;scroll-margin-top:96px}
+.week-sep{display:flex;align-items:center;gap:10px;color:var(--text-3);font-size:11px;letter-spacing:.04em;margin:.3rem 0 -.1rem}
+.week-sep::before,.week-sep::after{content:"";flex:1;height:0.5px;background:var(--border-strong)}
 .day-label{font-size:12px;color:var(--text-3);display:flex;gap:.5rem;align-items:baseline}
 .day-label .dow{color:var(--text-2);font-weight:500}
 .day-label.today .dow{color:var(--accent-text)}
@@ -203,6 +205,15 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     const d = new Date(iso+"T00:00:00");
     return MONTHS[d.getMonth()] + " " + d.getFullYear();
   }
+  function isoWeek(iso){
+    const d = new Date(iso+"T00:00:00Z");
+    const day = (d.getUTCDay() + 6) % 7;
+    d.setUTCDate(d.getUTCDate() - day + 3);
+    const firstThursday = new Date(Date.UTC(d.getUTCFullYear(), 0, 4));
+    const firstDay = (firstThursday.getUTCDay() + 6) % 7;
+    firstThursday.setUTCDate(firstThursday.getUTCDate() - firstDay + 3);
+    return 1 + Math.round((d - firstThursday) / (7 * 86400000));
+  }
 
   function matchesQuery(a, q){
     if (!q) return true;
@@ -216,7 +227,7 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
     const visible = acts.filter(a => (a.mine || state.checked.has(a.code)) && matchesQuery(a, state.query));
     document.getElementById('emptyMsg').hidden = visible.length > 0;
 
-    let curMonth = null, curDay = null, monthEl = null, dayEl = null;
+    let curMonth = null, curDay = null, curWeek = null, monthEl = null, dayEl = null;
     visible.forEach(a => {
       const mKey = a.date.slice(0,7);
       if (mKey !== curMonth){
@@ -228,6 +239,15 @@ const DATA = {"activities": [{"date": "2026-08-31", "start": "08:45", "end": "10
         monthEl.appendChild(h2);
         main.appendChild(monthEl);
         curDay = null;
+        curWeek = null;
+      }
+      const wk = isoWeek(a.date);
+      if (wk !== curWeek){
+        curWeek = wk;
+        const sep = document.createElement('div');
+        sep.className = 'week-sep';
+        sep.textContent = 'Week ' + wk;
+        monthEl.appendChild(sep);
       }
       if (a.date !== curDay){
         curDay = a.date;
